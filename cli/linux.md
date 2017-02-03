@@ -1,7 +1,7 @@
 
 command & means "run command in the background."
 command1 && command2 means "run command1 and if it completes successfully, run command2 afterwards."
-command1 | command2cat:  file.csv | python xxxx.py   pipeline stuff
+command1 | command2cat:  file.csv | python xxxx.py   pipeline stuff, for line in sys.stdin:
 ```
 du -ah
 du -sh 
