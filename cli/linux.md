@@ -25,6 +25,8 @@ tar -zxvf Python-2.7.12.tgz
 ```
 lsof -i:{port#} 
 kill #id
+
+ps -ef | grep nohup
 ```
 
 
