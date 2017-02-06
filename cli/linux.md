@@ -5,6 +5,7 @@ command1 | command2cat:  file.csv | python xxxx.py   pipeline stuff, for line in
 ```
 du -ah
 du -sh 
+df -h
 pwd 
 head filename.csv -n 10
 cat sth > python sth.py
