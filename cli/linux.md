@@ -14,6 +14,7 @@ cat sth > python sth.py
 ```
 mv -t DESTINATION file1 file2 file3
 cp -avr dir1/file dir2/
+cp fold1 folder2 -R
 rm -rf mydir
 ```
 
