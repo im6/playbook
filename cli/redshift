@@ -1,0 +1,17 @@
+select nspname, relname, max(attnum) as num_cols
+  from pg_attribute a, pg_namespace n, pg_class c
+  where n.oid = c.relnamespace 
+    and a.attrelid = c.oid
+    and c.relname not like '%pkey'
+    and n.nspname not like 'pg%'
+    and n.nspname not like 'information%'
+  group by 1, 2
+order by 1, 2;
+
+
+select
+  sum(capacity)/1024 as capacity_gbytes,
+  sum(used)/1024 as used_gbytes,
+  (sum(capacity) - sum(used))/1024 as free_gbytes
+from
+  stv_partitions where part_begin=0;
