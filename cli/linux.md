@@ -29,6 +29,8 @@ lsof -i:{port#}
 kill #id
 
 ps -ef | grep nohup
+
+dig +short myip.opendns.com @resolver1.opendns.com
 ```
 
 
