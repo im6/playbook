@@ -31,6 +31,9 @@ kill #id
 ps -ef | grep nohup
 
 dig +short myip.opendns.com @resolver1.opendns.com
+
+
+echo 123 > output.txt
 ```
 
 
