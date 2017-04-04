@@ -16,6 +16,7 @@ mv -t DESTINATION file1 file2 file3
 cp -avr dir1/file dir2/
 cp fold1 folder2 -R
 rm -rf mydir
+rm -R *0201\.csv
 ```
 
 ```
