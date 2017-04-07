@@ -33,6 +33,7 @@ echo 123 > output.txt
 
 sudo mount /dev/{location} /{mount_point}
 sudo umount {mount_point}
+find -iname "<whole file name>"
 ```
 
 
