@@ -34,6 +34,10 @@ echo 123 > output.txt
 sudo mount /dev/{location} /{mount_point}
 sudo umount {mount_point}
 find -iname "<whole file name>"
+
+
+link server to the directory: 
+sudo ln -s /opt/utorrent-server-v3_0/utserver /usr/bin/utserver
 ```
 
 
