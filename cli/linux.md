@@ -40,6 +40,11 @@ link server to the directory:
 sudo ln -s /opt/utorrent-server-v3_0/utserver /usr/bin/utserver
 
 $ scp ~/local/file user@remote:~/file
+
+sudo ufw allow 21/tcp
+sudo ufw deny 20/tcp
+
+
 ```
 
 
