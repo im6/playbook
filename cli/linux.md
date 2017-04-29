@@ -41,9 +41,18 @@ sudo ln -s /opt/utorrent-server-v3_0/utserver /usr/bin/utserver
 
 $ scp ~/local/file user@remote:~/file
 
+sudo apt-get install ufw
+sudo ufw status / sudo ufw status numbered / sudo ufw status verbose
+
 sudo ufw allow 21/tcp
 sudo ufw deny 20/tcp
-
+sudo ufw disable
+sudo ufw enable
+sudo ufw reset
+sudo ufw default deny incoming
+sudo ufw default allow outgoing
+sudo ufw allow 1000:2000/udp
+sudo ufw delete allow ssh / sudo ufw delete [number]
 
 ```
 
