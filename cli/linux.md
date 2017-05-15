@@ -18,7 +18,7 @@ rm -rf mydir
 rm -R *0201\.csv
 
 wget google.com -O foo.html
-sudo wget -o '/Downloads' 'http://mirror.nexcess.net/apache/spark/spark-1.6.2/spark-1.6.2.tgz'
+sudo wget -o '/Downloads' 'https://nodejs.org/dist/v6.10.3/node-v6.10.3-linux-x64.tar.xz'
 tar -zxvf Python-2.7.12.tgz
 
 lsof -i:{port#} 
@@ -53,6 +53,23 @@ sudo ufw default deny incoming
 sudo ufw default allow outgoing
 sudo ufw allow 1000:2000/udp
 sudo ufw delete allow ssh / sudo ufw delete [number]
+
+
+
+
+
+uname -a
+
+install nodejs in ubuntu  ***********
+sudo apt-get --purge remove node
+sudo apt-get --purge remove nodejs-legacy
+sudo apt-get --purge remove nodejs
+sudo apt-get install python-software-properties
+curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash -
+sudo apt-get install nodejs
+***********
+
+
 
 ```
 
