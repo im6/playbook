@@ -1,2 +1,2 @@
-netstat -a -o -n
+netstat -a -o -n  
 taskkill /F /PID 28344
