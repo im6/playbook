@@ -1,13 +1,16 @@
 
+# 1. Execute flow
+```
 command & means "run command in the background."   
 command1 && command2 means "run command1 and if it completes successfully, run command2 afterwards."   
-command1 | command2cat:  file.csv | python xxxx.py   pipeline stuff, for line in sys.stdin:   
-# Download & installation
+command1 | command2cat:  file.csv | python xxxx.py   pipeline stuff, for line in sys.stdin:  
+```
+# 2. Download & Installation
 ## apt-get command 
 ```
+sudo apt-get upgrade: actually install all the update
+sudo apt-get update: update list of available pkgs
 sudo apt-get --purge remove node
-sudo apt-get --purge remove nodejs-legacy
-sudo apt-get --purge remove nodejs
 sudo apt-get install python-software-properties
 sudo apt-get install nodejs
 ```
@@ -24,7 +27,7 @@ tar -czvf name-of-archive.tar.gz /path/to/directory-or-file
 tar -zxvf Python-2.7.12.tgz
 ```
 
-# system info
+# 3. System Info
 ## Kernal info:
 ```
 uname -a
@@ -34,6 +37,7 @@ uname -r
 ## check ip address:
 ```
 dig +short myip.opendns.com @resolver1.opendns.com
+ip addr
 ```
 ## check ubuntu version: 
 ```
@@ -44,7 +48,7 @@ lsb_release -a
 who -b   
 last reboot | head -1
 ```
-# operation command
+# 4. Operation Command
 ## preview file
 ```
 head filename.csv -n 10
@@ -81,8 +85,10 @@ rm -R *0201\.csv
 ## process operation:
 ```
 ps -ef | grep nohup
+ps aux | grep apt
 lsof -i:{port#} 
 kill #id
+kill -9 processnumber
 ```
 
 ## mount drive:
@@ -107,18 +113,28 @@ $ scp ~/local/file user@remote:~/file
 sudo ln -s /opt/utorrent-server-v3_0/utserver /usr/bin/utserver
 ```
 
-# ufw firewall setup:
+# 5. UFW Firewall Setup:
+[ufw setup quickstart](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-firewall-with-ufw-on-ubuntu-16-04 "Digital Occean")
 ```
 sudo apt-get install ufw
 sudo ufw status / sudo ufw status numbered / sudo ufw status verbose
-sudo ufw allow 21/tcp
-sudo ufw deny 20/tcp
 sudo ufw disable
 sudo ufw enable
 sudo ufw reset
+
+sudo ufw allow 21/tcp
+sudo ufw allow ssh
+sudo ufw allow 22
+sudo ufw allow from 15.15.15.51
+sudo ufw allow 1000:2000/udp
+sudo ufw allow 6000:6007/tcp
+sudo ufw allow 6000:6007/udp
+
+sudo ufw deny 20/tcp
 sudo ufw default deny incoming
 sudo ufw default allow outgoing
-sudo ufw allow 1000:2000/udp
+sudo ufw default deny incoming
+sudo ufw default allow outgoing
 sudo ufw delete allow ssh / sudo ufw delete [number]
 ```
 
