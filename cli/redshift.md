@@ -1,3 +1,6 @@
+
+get table meta info:
+```sql
 select nspname, relname, max(attnum) as num_cols
   from pg_attribute a, pg_namespace n, pg_class c
   where n.oid = c.relnamespace 
@@ -7,23 +10,28 @@ select nspname, relname, max(attnum) as num_cols
     and n.nspname not like 'information%'
   group by 1, 2
 order by 1, 2;
-
-
+```
+get storage status:
+```sql
 select
   sum(capacity)/1024 as capacity_gbytes,
   sum(used)/1024 as used_gbytes,
   (sum(capacity) - sum(used))/1024 as free_gbytes
 from
   stv_partitions where part_begin=0;
+```
+
   
-  
-  
+Grant permission:
+```sql
 GRANT ALL ON SCHEMA <schName> TO <Username>;
 select * from stl_load_errors order by starttime desc limit 10
 truncate <tableName>;
 vacuum;
+```sql
 
-
+get all table meta info:
+```sql
 select
     trim(pgdb.datname) as Database,
     trim(pgn.nspname) as Schema,
@@ -44,3 +52,9 @@ join (
     group by tbl
 ) b on a.id = b.tbl
 order by mbytes desc, a.db_id, a.name;
+```
+
+system setup:
+```sql
+set statement_timeout to 1200000
+```
