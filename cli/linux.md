@@ -17,6 +17,7 @@ sudo apt-get install nodejs
 ## download & get:
 ```
 curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash -
+curl -X GET --header 'header1:value1' --header 'header2:value2' 'http://<target endopint>' # endpoint testing
 wget google.com -O foo.html
 sudo wget -o '/Downloads' 'https://nodejs.org/dist/v6.10.3/node-v6.10.3-linux-x64.tar.xz'
 ```
