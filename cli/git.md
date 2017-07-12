@@ -2,7 +2,7 @@
 git clone xxx
 
 git commit -a -m ""
-git add -u 只有变化的文件 stage the modified and deleted files
+git add -u #只有变化的文件 stage the modified and deleted files
 git add --all
 
 git remote -v 
@@ -21,7 +21,6 @@ git diff --name-only
 
 git config --get remote.origin.url
 git config --global user.name
-git config -l: list all the information for the .git folder
-git rm -r --cached myFolder  删除version但是留下本地
-
+git config -l #list all the information for the .git folder
+git rm -r --cached myFolder #删除version但是留下本地
 ```
