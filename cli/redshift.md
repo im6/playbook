@@ -58,3 +58,8 @@ system setup:
 ```sql
 set statement_timeout to 1200000
 ```
+
+switch user role
+```sql
+alter user <username> createuser;
+```
