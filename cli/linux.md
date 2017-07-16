@@ -117,12 +117,17 @@ sudo ln -s /opt/utorrent-server-v3_0/utserver /usr/bin/utserver
 # 5. UFW Firewall Setup:
 [ufw setup quickstart](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-firewall-with-ufw-on-ubuntu-16-04 "Digital Occean")
 ```
+sudo apt-get update
 sudo apt-get install ufw
+
 sudo ufw status / sudo ufw status numbered / sudo ufw status verbose
 sudo ufw disable
 sudo ufw enable
 sudo ufw reset
 
+sudo ufw app list
+sudo ufw allow 'Nginx HTTP'
+sudo ufw status
 sudo ufw allow 21/tcp
 sudo ufw allow ssh
 sudo ufw allow 22
