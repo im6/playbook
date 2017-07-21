@@ -1,6 +1,10 @@
 Regular CRUD: 
 ```bash
-db.getCollection('users').find({name: "jime"})
+db.getCollection('users').find({"config.enable": false}).sort({createdDate:1})
+db.getCollection('users').find({config: { enable: false}}).limit(50)
+db.getCollection('users').find({name: "jime"}, {name: 1, address: 0, email: 1})  # projection response
+db.getCollection('users').find( { "size.h": { $lt: 15 } } )
+
 ```
 Get Admin Mode: 
 ```
