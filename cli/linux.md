@@ -114,6 +114,21 @@ $ scp ~/local/file user@remote:~/file
 sudo ln -s /opt/utorrent-server-v3_0/utserver /usr/bin/utserver
 ```
 
+## file permission
+| # | Permission              | rwx |
+|---|-------------------------|-----|
+| 7 | read, write and execute | rwx |
+| 6 | read and write          | rw- |
+| 5 | read and execute        | r-x |
+| 4 | read only               | r-- |
+| 3 | write and execute       | -wx |
+| 2 | write only              | -w- |
+| 1 | execute only            | --x |
+| 0 | none                    | --- |
+```sh
+chmod [options] mode[,mode] file1 [file2 ...]
+```
+
 # 5. UFW Firewall Setup:
 [ufw setup quickstart](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-firewall-with-ufw-on-ubuntu-16-04 "Digital Occean")
 ```
