@@ -1,5 +1,11 @@
 # Basic
 ```bash
+./src/**  # All files, current level
+./src/**/*  # All files, recursive
+./src/**/*.*  # All files, recursive
+./src/less/**/*.{less,css}  # All style files
+
+
 ?(pattern-list)   # Matches zero or one occurrence of the given patterns
 *(pattern-list)   # Matches zero or more occurrences of the given patterns
 +(pattern-list)   # Matches one or more occurrences of the given patterns
