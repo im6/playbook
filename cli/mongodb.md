@@ -1,4 +1,4 @@
-Regular CRUD: 
+## Regular CRUD: 
 ```bash
 db.getCollection('users').find({"config.enable": false}).sort({createdDate:1})
 db.getCollection('users').find({config: { enable: false}}).limit(50)
@@ -7,20 +7,20 @@ db.getCollection('users').find( { "size.h": { $lt: 15 } } )
 db.getCollection('users').find({name: /^Jim/,  $or:[{age: {$lt: 15, $gte: 5}}, {addr: /new york/}]})
 
 ```
-Get Admin Mode: 
+## Get Admin Mode: 
 ```
 mongo
 use <dbname>
 use admin
 db.auth("username", "password")
 ```
-Create New User: 
+## Create New User: 
 ```bash
 db.auth("admin_username ", " admin_password ");   # Authenticate admin user
 db.addUser("admin_username", " admin_password"); 
 ```
 
-Update Mongo config: (add auth for exmaple)
+## Update Mongo config: (add auth for exmaple)
 ```
 service mongod status
 sudo service mongod stop
