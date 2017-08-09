@@ -5,6 +5,7 @@ db.getCollection('users').find({config: { enable: false}}).limit(50)
 db.getCollection('users').find({name: "jime"}, {name: 1, address: 0, email: 1})  # projection response
 db.getCollection('users').find( { "size.h": { $lt: 15 } } )
 db.getCollection('users').find({name: /^Jim/,  $or:[{age: {$lt: 15, $gte: 5}}, {addr: /new york/}]})
+db.getCollection('users').find( { "size.h": { $lt: 15 } }, { "gender": 0} )
 
 ```
 ## Get Admin Mode: 
