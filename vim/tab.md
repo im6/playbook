@@ -1,0 +1,2 @@
+:tabnew <filename>
+gt, gT
