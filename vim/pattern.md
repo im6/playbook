@@ -1,0 +1,4 @@
+/test
+/\ctest
+n
+N
