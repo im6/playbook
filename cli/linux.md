@@ -65,7 +65,8 @@ pwd
 ```
 du -ah
 du -sh 
-df -h
+df -h # disk usage
+free -m # RAM usage
 ```
 ## file search:
 ```
