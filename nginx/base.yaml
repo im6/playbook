@@ -1,0 +1,18 @@
+events {
+}
+
+http {
+  server {  # test server 1
+    listen 80
+    location / {
+      root /data/www;
+    }
+  }
+  
+  server {  # test server 2
+    listen 8080
+    location /images/ {  # matching the longest prefix
+      root /data/www;
+    }
+  }
+}
