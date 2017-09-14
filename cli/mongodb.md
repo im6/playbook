@@ -6,8 +6,10 @@ db.getCollection('users').find({name: "jime"}, {name: 1, address: 0, email: 1}) 
 db.getCollection('users').find( { "size.h": { $lt: 15 } } )
 db.getCollection('users').find({name: /^Jim/,  $or:[{age: {$lt: 15, $gte: 5}}, {addr: /new york/}]})
 db.getCollection('users').find( { "size.h": { $lt: 15 } }, { "gender": 0} )
+db.getCollection('users').find({$or: [{name: 'test'}, [age: 123]]})
 db.getCollection('users').update({},{$set: {username: "123"}}, { multi: true })
 db.getCollection('users').update({}, {$unset: {username: 1}}, { multi: true })
+db.getCollection('todos').insertMany([{}, {}, {}]);
 
 ```
 ## Get Admin Mode: 
