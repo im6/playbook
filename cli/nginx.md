@@ -6,7 +6,7 @@ sudo apt-get install nginx
 apply after udpating files under nginx/conf.d
 ```
 sudo nginx -t
-sudo service nginx restart
+sudo service nginx restart  // or nginx -s reload
 ```
 
 options
@@ -22,4 +22,11 @@ options
 -g directives	Set global directives. (version >= 0.7.4)
 -s signal   (signal: stop, quit, reload, reopen)
 -c <PATH> execute config
+```
+
+
+Kill
+```
+nginx -s quit  // under same user that start nginx
+ps -ax | grep nginx
 ```
