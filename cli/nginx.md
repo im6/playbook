@@ -6,7 +6,9 @@ sudo apt-get install nginx
 apply after udpating files under nginx/conf.d
 ```
 sudo nginx -t
-sudo service nginx restart  // or nginx -s reload
+sudo service nginx restart
+sudo nginx -s reload  // same user who start nginx
+sudo systemctl restart nginx
 ```
 
 options
