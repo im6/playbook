@@ -1,0 +1,20 @@
+
+http {
+  upstream myapp {
+    # default: round-robin, ip_hash, least_conn
+    
+    server srv1.example.com;
+    server srv2.example.com;
+    server srv3.example.com;
+    
+    keepalive 256;
+  }
+  
+  server {
+    listen 80;
+    
+    location / {
+      proxy_pass http://myapp
+    }
+  }
+}
