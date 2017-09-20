@@ -63,3 +63,10 @@ switch user role
 ```sql
 alter user <username> createuser;
 ```
+
+specify query group of WLM
+```sql
+set query_group to '<GROUP NAME>';
+select * from users;
+reset query_group;
+```
