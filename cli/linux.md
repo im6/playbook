@@ -160,3 +160,7 @@ sudo ufw default allow outgoing
 sudo ufw delete allow ssh / sudo ufw delete [number]
 ```
 
+# 6. port information
+```
+netstat -tlnp
+```
