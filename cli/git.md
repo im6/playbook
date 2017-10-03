@@ -18,6 +18,7 @@ git remote show origin
 
 git log --oneline
 git reset/revert xx?
+git reset <last good SHA> or git reset --hard <last good SHA>  // remove/reset the commit that are not pushed yet.
 git diff --name-only
 
 git config --get remote.origin.url
