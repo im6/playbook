@@ -128,6 +128,7 @@ sudo ln -s /opt/utorrent-server-v3_0/utserver /usr/bin/utserver
 | 0 | none                    | --- |
 ```sh
 chmod [options] mode[,mode] file1 [file2 ...]
+namei -l <PATHNAME>  // display the permission config of each files/paths
 ```
 
 # 5. UFW Firewall Setup:
