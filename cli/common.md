@@ -1,4 +1,8 @@
-gzip / gunzip
-uname
-uptime
-w
+```
+gzip / gunzip 
+uname  
+uptime 
+w 
+```
+
+
