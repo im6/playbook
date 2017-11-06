@@ -151,7 +151,6 @@ sudo ufw allow 22
 sudo ufw allow from 15.15.15.51
 sudo ufw allow 1000:2000/udp
 sudo ufw allow 6000:6007/tcp
-sudo ufw allow 6000:6007/udp
 
 sudo ufw deny 20/tcp
 sudo ufw default deny incoming
