@@ -12,8 +12,14 @@ This article is mainly focused on how to share the vpn network access through wi
 ## Step
 1. In service, switch the service - windows firewall - from automatic to manual
 2. Open command console **AS ADMIN**
-  * 运行命令：
-启用wifi： netsh wlan set hostednetwork mode=allow ssid=mywifi key=12345678
-禁用wifi： netsh wlan set hostednetwork mode=disallow
+  * 设置wifi： netsh wlan set hostednetwork mode=allow ssid=mywifi key=12345678 
+  * 禁用wifi： netsh wlan set hostednetwork mode=disallow   
+  * 开启WiFi： netsh wlan start hostednetwork 
+  * 关闭wifi： netsh wlan stop hostednetwork 
+3. test: if you could connect to new wifi with password 12345678
+4. test: if you could share existing network to the new wifi
+5. start and run VPN software
+6. share VPN network with new wifi
+7. now you should be able to use virtual wifi to do anything you want.
 
 
