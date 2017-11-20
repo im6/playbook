@@ -25,7 +25,7 @@ This article is mainly focused on how to share the vpn network access through wi
 3. test: if you could connect to new wifi with password 12345678
   * sometime DHCP is disabled, that means you need to manually configure the IP and netmask in ip settings.
   * command: ipconfig
-      ![](https://github.com/zj1926/toolbox/blob/master/troubleshooting/img/img3.PNG "ipconfig")
+    ![](https://github.com/zj1926/toolbox/blob/master/troubleshooting/img/img3.PNG "ipconfig")
 
 4. test: if you could share existing network to the new wifi
 5. start and run VPN software
