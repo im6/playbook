@@ -1,4 +1,4 @@
-[reference](http://www.hongkiat.com/blog/meta-tag-hidden-features/)
+[reference](http://www.hongkiat.com/blog/meta-tag-hidden-features/)  
 [stackoverflow survey result in 2017](https://www.sitepoint.com/key-takeaways-stack-overflow-2017-developer-survey/)
 1. Controlling Browser Cache
 ```html
