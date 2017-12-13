@@ -20,8 +20,15 @@ Finally install
 ```hash
 sudo make install.
 ```
+
 ## Running
 ```hash
 redis-server #start
-redis-cli ping # check if the server is working now
+redis-server redis.conf #running with customize config files
+```
+## cli
+redis-cli
+```hash
+ping
+auth <YOURBEAUTIFULPASSWORD>
 ```
