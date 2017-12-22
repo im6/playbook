@@ -68,6 +68,10 @@ du -sh
 df -h # disk usage
 free -m # RAM usage
 ```
+## line number
+```
+wc -l <filename>
+```
 ## file search:
 ```
 find -iname "<whole file name>"
