@@ -33,5 +33,7 @@ git rm -r --cached myFolder #删除version但是留下本地
 git fetch origin
 git branch
 git checkout master/<BRANCHE_NAME>
+git branch --delete <BRANCHE_NAME>
+git checkout --track origin/<BRANCHE_NAME>
 ```
 
