@@ -29,5 +29,9 @@ git config --global user.name "Foo"
 git config --global --list
 git config -l #list all the information for the .git folder
 git rm -r --cached myFolder #删除version但是留下本地
+
+git fetch origin
+git branch
+git checkout master/<BRANCHE_NAME>
 ```
 
