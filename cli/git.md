@@ -35,5 +35,8 @@ git branch
 git checkout master/<BRANCHE_NAME>
 git branch --delete <BRANCHE_NAME>
 git checkout --track origin/<BRANCHE_NAME>
+git branch -d branch_name
+git branch -D branch_name   # force
+git push origin --delete {the_remote_branch}
 ```
 
