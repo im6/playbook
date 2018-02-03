@@ -13,6 +13,10 @@ sudo apt-get update: update list of available pkgs
 sudo apt-get --purge remove node
 sudo apt-get install python-software-properties
 sudo apt-get install nodejs
+
+sudo apt-get remove nodejs
+sudo apt-get purge packagename
+sudo apt-get remove --purge packagename
 ```
 ## download & get:
 ```
