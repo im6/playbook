@@ -99,6 +99,7 @@ ps aux | grep apt
 lsof -i:{port#} 
 kill #id
 kill -9 processnumber
+pkill <KEYWORD: gunicorn>
 ```
 
 ## mount drive:
