@@ -1,5 +1,6 @@
 
 # 1. Execute flow
+分号可以让两个 command 连续运作，不考虑 command1 的输出状态； && 则前一个指令必需没有错误信息，亦即返回值需为 0 ，则 command2 才会被执行； || 则与 && 相反
 ```
 command & means "run command in the background."   
 command1 && command2 means "run command1 and if it completes successfully, run command2 afterwards."   
