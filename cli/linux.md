@@ -140,6 +140,19 @@ chmod [options] mode[,mode] file1 [file2 ...]
 namei -l <PATHNAME>  // display the permission config of each files/paths
 ```
 
+## Environment Var
+```
+env
+echo $PATH
+```
+
+
+## Execution result: error = 0/1 
+```
+echo $?
+```
+
+
 # 5. UFW Firewall Setup:
 [ufw setup quickstart](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-firewall-with-ufw-on-ubuntu-16-04 "Digital Occean")
 ```
