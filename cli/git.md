@@ -29,6 +29,7 @@ git config --global user.name "Foo"
 git config --global --list
 git config -l #list all the information for the .git folder
 git rm -r --cached myFolder #删除version但是留下本地
+git remote set-url origin git@github.com:USERNAME/REPOSITORY.git
 
 git fetch origin
 git branch
