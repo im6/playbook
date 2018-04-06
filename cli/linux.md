@@ -91,6 +91,7 @@ cp -avr dir1/file dir2/
 cp fold1 folder2 -R
 rm -rf mydir
 rm -R *0201\.csv
+sed -n '10p' file.txt  # preview 10th line
 ```
 
 ## process operation:
