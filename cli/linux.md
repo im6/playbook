@@ -54,6 +54,12 @@ lsb_release -a
 who -b   
 last reboot | head -1
 ```
+## ubuntu version
+```
+lsb_release -rs # Get current Ubuntu vesion
+
+```
+
 # 4. Operation Command
 ## preview file
 ```
