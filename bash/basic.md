@@ -42,3 +42,18 @@ else
   echo nothing
 fi
 ```
+
+```
+if [[ $(lsb_release -rs) == "14.04" ]]; then
+    echo 'do something'
+fi
+
+if [ ! -d /MyAppFolder/ ]; then   
+    sudo mkdir /MyAppFolder
+fi
+```
+
+## End Clause
+```
+exit 1  #return error code
+```
