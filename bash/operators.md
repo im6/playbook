@@ -166,4 +166,5 @@ But, as rihad points out:
 
 # Apparently && and || "short-circuit" while -a and -o do not.
 Refer to Example 8-3, Example 27-17, and Example A-29 to see compound comparison operators in action.
+
 ```
