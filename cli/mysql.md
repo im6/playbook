@@ -12,7 +12,7 @@ values
 
 ALTER TABLE user ADD UNIQUE (email)
 
-ALTER TABLE colortype AUTO_INCREMENT = 15;
+ALTER TABLE colorpk_color AUTO_INCREMENT = 417;
 
 ALTER TABLE table_name DROP PRIMARY KEY,ADD PRIMARY KEY (col_name1, col_name2);
 ```
