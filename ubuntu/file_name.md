@@ -9,3 +9,6 @@
 /bin, /sbin, /usr/bin, /usr/sbin ：系统默认的执行文件的放置目录。其中 /bin ， /usr/bin 是系统用户使用的目录，而 /sbin ， /usr/sbin 则是系统管理员使用的目录；
 
 /var/log ：存放所有服务的登录文件或错误信息文件。
+
+/var/log/apache/access.log: Apache错误输出
+/var/log/apache2/access.log: Apache错误输出
