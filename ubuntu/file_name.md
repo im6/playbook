@@ -10,5 +10,5 @@
 
 /var/log ：存放所有服务的登录文件或错误信息文件。
 
-/var/log/apache/access.log: Apache错误输出
+/var/log/apache/access.log: Apache错误输出  
 /var/log/apache2/access.log: Apache错误输出
