@@ -72,6 +72,12 @@ ls -lrt
 pwd 
 
 ```
+
+## file search
+```
+locate file1 dir1
+locate "*.html" | less
+```
 ## file size
 ```
 du -ah
