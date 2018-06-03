@@ -30,3 +30,8 @@ Bananas > /tmp/ans
 $ fruit=`cat 
 
 ```
+
+
+
+## Keyword
+read $REPLY
