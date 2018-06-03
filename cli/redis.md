@@ -31,4 +31,10 @@ redis-cli
 ```hash
 ping
 auth <YOURBEAUTIFULPASSWORD>
+info
+
+set <MYKEY> <MyValue>
+get <MYKEY>
+FLUSHALL
+DBSIZE
 ```
