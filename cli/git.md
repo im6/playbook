@@ -7,6 +7,7 @@ git remote add origin https://github.com/analytic-partners/gpse-login.git
 git push -u origin master
 
 git clone xxx
+git clone --recursive http://xxx.com/xx.git   // clone submodule git repo
 
 git commit -a -m ""
 git add -u #只有变化的文件 stage the modified and deleted files
