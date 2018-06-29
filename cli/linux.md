@@ -34,6 +34,11 @@ tar -zxvf Python-2.7.12.tgz
 ```
 
 # 3. System Info
+## System Monitor
+```
+top
+```
+
 ## Kernal info:
 ```
 uname -a
