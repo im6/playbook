@@ -208,3 +208,12 @@ sudo ufw delete allow ssh / sudo ufw delete [number]
 ```
 netstat -tlnp
 ```
+
+
+
+# 7. Utility
+## Calculator
+```
+bc
+quit
+```
