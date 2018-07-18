@@ -58,6 +58,7 @@ lsb_release -a
 ```
 who -b   
 last reboot | head -1
+uptime  # how long sysm is running
 ```
 ## ubuntu version
 ```
@@ -66,6 +67,12 @@ lsb_release -rs # Get current Ubuntu vesion
 ```
 
 # 4. Operation Command
+
+## User activity
+```
+w
+```
+
 ## preview file
 ```
 head filename.csv -n 10
@@ -112,6 +119,9 @@ cp fold1 folder2 -R
 rm -rf mydir
 rm -R *0201\.csv
 sed -n '10p' file.txt  # preview 10th line
+
+gzip file ## compression
+gzip -d file ## Decompress
 ```
 
 ## process operation:
