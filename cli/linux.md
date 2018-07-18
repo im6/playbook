@@ -4,7 +4,7 @@
 ```
 command & means "run command in the background."   
 command1 && command2 means "run command1 and if it completes successfully, run command2 afterwards."   
-command1 | command2cat:  file.csv | python xxxx.py   pipeline stuff, for line in sys.stdin:  
+command1 | command2:  file.csv | python xxxx.py   pipeline stuff, for line in sys.stdin:  
 ```
 # 2. Download & Installation
 ## apt-get command 
@@ -70,6 +70,9 @@ lsb_release -rs # Get current Ubuntu vesion
 ```
 head filename.csv -n 10
 tail /path/to/file
+cat xxxfile
+tac xxxfile
+nl xxxfile
 ```
 ## view structure
 ```
