@@ -84,7 +84,7 @@ nl xxxfile
 ## view structure
 ```
 ls -lrt 
-pwd 
+pwd # print working directory
 
 ```
 
@@ -226,4 +226,10 @@ netstat -tlnp
 ```
 bc
 quit
+```
+
+
+## Comparison
+```
+cmp file1 file2
 ```
