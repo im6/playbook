@@ -37,6 +37,8 @@ tar -zxvf Python-2.7.12.tgz
 ## System Monitor
 ```
 top
+top -u tecmint
+top -n 1 -b > top-output.txt
 ```
 
 ## Kernal info:
