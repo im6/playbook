@@ -6,6 +6,12 @@ command & means "run command in the background."
 command1 && command2 means "run command1 and if it completes successfully, run command2 afterwards."   
 command1 | command2:  file.csv | python xxxx.py   pipeline stuff, for line in sys.stdin:  
 ```
+## 1.1
+"\\" is used to continue typing in next line
+```
+aws cloudformation create-stack \
+    --stack-name lambda-file-processing \
+```
 # 2. Download & Installation
 ## apt-get command 
 ```
