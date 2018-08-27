@@ -222,6 +222,17 @@ sudo ufw default allow outgoing
 sudo ufw delete allow ssh / sudo ufw delete [number]
 ```
 
+CentOS firewall  
+```
+# 安装防火墙
+yum install firewalld
+# 启动防火墙
+systemctl start firewalld
+# 端口号是你自己设置的端口
+firewall-cmd --permanent --zone=public --add-port=443/tcp
+firewall-cmd --reload
+```
+
 # 6. port information
 ```
 netstat -tlnp
