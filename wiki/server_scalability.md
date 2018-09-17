@@ -1,5 +1,20 @@
+## Consideration
+- Availability
+- Performance
+- Reliability of Retrieval
+- Manageability
+- Cost
+
+## Service
+- read
+- write
+
+### method
+- Dividing the Functions
+- Adding Shards
+
 ## 服务器集群的伸缩性设计常见方法
-#### 垂直扩展（Scale Up）与水平扩展（Scale Out）
+#### Partition 垂直扩展（Scale Up）与水平扩展（Scale Out）
 1. HTTP重定向 
 Web服务器可通过Http响应头信息中的Location标记来返回一个新的URL，浏览器自动去访问这个新的URL。
 2. DNS负载均衡
@@ -51,3 +66,24 @@ hash拆分
 
 ### 写库高可用
 
+
+
+## Scalable and Fast Data Access – Strategies and Methods
+
+### cache
+- On the request node
+- Distributed Cache
+- Global Cache
+
+### Proxies
+Proxies can be a great help in scaling, by coordinating multiple server requests when they are the same or quite similar. A proxy can collapse all same requests and forward only one request to the database disk, reading the data only one time. While latency time for an individual requester may increase a bit, this is offset by the ability to improve high load incidents.  
+Proxies and caches can also be used together, so long as the cache is placed before the proxy, because it is working from memory and can take the load from the proxy as user volume grows.
+### Indexes
+Indexes basically set up a data table based upon where that data is housed. And as more data and devices are added, that data table can be enlarged too. As a request comes in the index directs the query to the right data table where it can then be broken down even further for a specific piece of that data. Far faster than searching the whole of the data. The write end of the query may be slowed, but in the end, the data is retrieved and back to the requester faster. Indexes are a great tool for scaling.
+
+### Load balancers
+Load balancers are usually placed up front so that requests are routed in the best manner. And if a distribution system is complex, there can be more than one load balancer put into place.
+One challenge with load balancers is that the same requester may be routed differently during ensuing visits. This is generally a problem seen by e-commerce sites that want the shopping cart to remain through all visits. Thus, there is the ability to build in stickiness so that the same requester is always routed the same, but then node failures can be a problem. Browser caches and cookies can offset this somewhat, but it is something to think about when building a scalable site.
+
+### Queues
+When building new sites, as for a startup, write management is pretty easy. Systems are quite simple, and writes are fast. As a site grows, however, writes can take longer and longer due to factors already discussed. To plan for this, scalable web application developers will need the architecture in place to build in asynchrony, and queues are a solid solution. This allows a client to make a request, receive acknowledgment of that request, and then move on to other work, periodically checking back. Under synchronous systems, the client simply waits, doing no other work. This is an issue during heavy loads.
