@@ -87,3 +87,7 @@ One challenge with load balancers is that the same requester may be routed diffe
 
 ### Queues
 When building new sites, as for a startup, write management is pretty easy. Systems are quite simple, and writes are fast. As a site grows, however, writes can take longer and longer due to factors already discussed. To plan for this, scalable web application developers will need the architecture in place to build in asynchrony, and queues are a solid solution. This allows a client to make a request, receive acknowledgment of that request, and then move on to other work, periodically checking back. Under synchronous systems, the client simply waits, doing no other work. This is an issue during heavy loads.
+
+
+
+[source article](http://www.aosabook.org/en/distsys.html)
