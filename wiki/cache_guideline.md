@@ -1,3 +1,12 @@
+[全栈缓存时代](https://segmentfault.com/a/1190000005808789)  
+[浅谈Web系统设计之缓存](https://www.jianshu.com/p/345f26baa589)   
+[大型web系统数据缓存设计](http://data.qq.com/article?id=2879)
+## Data Type
+1. pure static
+2. pure dynamic
+3. static in short period of time
+4. have both static and dynamic in the same page
+
 ## Design Pattern
 * Cache aside
 	* Code kind of maintain two data store(db and cache)
