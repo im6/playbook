@@ -2,10 +2,12 @@
 [浅谈Web系统设计之缓存](https://www.jianshu.com/p/345f26baa589)   
 [大型web系统数据缓存设计](http://data.qq.com/article?id=2879)
 ## Data Type
-1. pure static
-2. pure dynamic
+1. pure static(CDN)
+2. pure dynamic (data cache, redis/memcache)
 3. static in short period of time
 4. have both static and dynamic in the same page
+ - 1 cdn static page
+ - 2 localstorage save state of dynamic information, such as ad, login status
 
 ## Design Pattern
 * Cache aside
@@ -29,6 +31,7 @@
 * distributed, same virtual pool of memory: large web server
 
 ## Redis
+ * Single node redis performance maximum in general: 14k QPS
  * persistence options
 	* RDB
 		* snapshot into single file 
@@ -43,7 +46,11 @@
   * maxmemory 
   * eviction policies
 		
- ## LocalMemory: game server
+ ## LocalMemory: localstorage, game server
+ ## File cache
+ - Stream(并发读写死锁)
+ - CDN
+ - Distributed system that have shared file drive mounted
 
  
  
