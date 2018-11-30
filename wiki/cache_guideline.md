@@ -31,8 +31,8 @@
 2. pure dynamic (data cache, redis/memcache)
 3. static in short period of time
 4. have both static and dynamic in the same page
- - cdn static page
- - localstorage save state of dynamic information, such as ad, login status
+   - cdn static page
+   - localstorage save state of dynamic information, such as ad, login status
 
 ## CDN
 - Cross area and ISP
@@ -73,10 +73,7 @@
 	* async update db from cache
 * trade off between data sync and performance		
 
- ## File cache
- - Stream(并发读写死锁)
- - CDN
- - Distributed system that have shared file drive mounted
-
- 
- 
+## File cache
+- Stream(并发读写死锁)
+- CDN
+- Distributed system that have shared file drive mounted
