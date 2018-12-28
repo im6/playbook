@@ -12,7 +12,7 @@ pip install virtualenv
 virtualenv -p python3 <ENV_Name>
 ```
 
-### Necessary: python-dev
+### Necessary: python`<VERSION`>-dev
 ```
 For Python 2.x use:
    $ sudo apt-get install python-dev
@@ -28,14 +28,9 @@ For Python 3.6 use:
    $ sudo apt-get install python3.6-dev
 ```
 ### Optional:
-libpq-dev  
-python-dev  
-libxml2-dev  
-libxslt1-dev  
-libldap2-dev  
-libsasl2-dev  
-libffi-dev  
-install 
-libxml2-dev 
-libxslt1-dev
-libssl-dev
+libpq-dev: C application programmer's interface to PostgreSQL  
+libxml2-dev: XML C parser and toolkit developed for the Gnome project  
+libxslt1-dev:  an XML language for defining transformations of XML files from XML to some other arbitrary format, such as XML, HTML  
+libldap2-dev: simple LDAP protocal  
+libsasl2-dev: SASL is the Simple Authentication and Security Layer, a method for adding authentication support to connection-based protocols   
+libffi-dev: portable, high level programming interface to various calling conventions  
