@@ -1,0 +1,9 @@
+{
+    "git.confirmSync": false,
+    "workbench.colorTheme": "Default Light+",
+    "git.autofetch": true,
+    "workbench.statusBar.feedback.visible": false,
+    "workbench.iconTheme": "vscode-icons",
+    "files.autoSave": "afterDelay",
+    "editor.fontSize": 13
+}
