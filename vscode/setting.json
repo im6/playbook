@@ -4,6 +4,6 @@
     "git.autofetch": true,
     "workbench.statusBar.feedback.visible": false,
     "workbench.iconTheme": "vscode-icons",
-    "files.autoSave": "afterDelay",
+    "files.autoSave": "onFocusChange",
     "editor.fontSize": 13
 }
