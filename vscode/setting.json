@@ -1,9 +1,17 @@
 {
-    "git.confirmSync": false,
+    
     "workbench.colorTheme": "Default Light+",
-    "git.autofetch": true,
     "workbench.statusBar.feedback.visible": false,
     "workbench.iconTheme": "vscode-icons",
+    
     "files.autoSave": "onFocusChange",
+    
     "editor.fontSize": 13
+    
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    
+    "gitlens.hovers.enabled": false,
+    "gitlens.currentLine.enabled": false,
+    "gitlens.hovers.currentLine.over": "line"
 }
