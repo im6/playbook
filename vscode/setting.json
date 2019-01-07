@@ -6,7 +6,7 @@
     
     "files.autoSave": "onFocusChange",
     
-    "editor.fontSize": 13
+    "editor.fontSize": 13,
     
     "git.confirmSync": false,
     "git.autofetch": true,
