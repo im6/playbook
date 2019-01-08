@@ -1,0 +1,3 @@
+- go to file: ctrl + p
+- go to command: ctrl + p
+- search in workspace: ctrl + shift + r
