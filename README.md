@@ -1,4 +1,4 @@
-# toolbox
+# Toolbox
 
 this repo includes all the useful tools such as
 
@@ -6,3 +6,4 @@ this repo includes all the useful tools such as
 - code snippet
 - thought and conclusion
 - gotcha!
+- lesson and learned
