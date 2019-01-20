@@ -1,13 +1,15 @@
 
-## Arithmetic
-```
+# Arithmetic
+
+```sh
 expr 1 + 3 # space sensitive
 expr 10 / 3 # 3
 expr 10 \* 3 # mutiply
 ```
 
-## variable declaration
-```
+# variable declaration
+
+```sh
 myvar=23
 echo ${myvar}
 
@@ -17,8 +19,10 @@ echo ${#myvar}
 myvar=abcd
 echo ${myvar:1:3} # bcd
 ```
-## Condition
-```
+
+# Condition
+
+```sh
 myvar=abcdef
 myvar2=ghi
 if [[ $myvar = $myvar2 ]]
@@ -29,7 +33,7 @@ else
 fi
 ```
 
-```
+```sh
 myvar=10
 myvar2=20
 if [[ $myvar -gt $myvar2 ]]
@@ -43,7 +47,7 @@ else
 fi
 ```
 
-```
+```sh
 if [[ $(lsb_release -rs) == "14.04" ]]; then
     echo 'do something'
 fi
@@ -53,7 +57,8 @@ if [ ! -d /MyAppFolder/ ]; then
 fi
 ```
 
-## End Clause
-```
+# End Clause
+
+```sh
 exit 1  #return error code
 ```
