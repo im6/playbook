@@ -1,5 +1,7 @@
 # Overview Of Redis Architecture
-[Reference](http://qnimate.com/overview-of-redis-architecture/)   
+
+[Reference](http://qnimate.com/overview-of-redis-architecture/)
+
 - Single Instance
 - Replication
 - Cluster

@@ -1,18 +1,24 @@
-install
-```
+# NGINX
+
+## install
+
+```sh
 sudo apt-get update
 sudo apt-get install nginx
 ```
+
 apply after udpating files under nginx/conf.d
-```
+
+```sh
 sudo nginx -t
 sudo service nginx restart
 sudo nginx -s reload  // same user who start nginx
 sudo systemctl restart nginx
 ```
 
-options
-```
+## options
+
+```sh
 -?, -h	Print help.
 -v	Print version.
 -V	Print NGINX version, compiler version and configure parameters.

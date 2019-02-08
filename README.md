@@ -1,4 +1,4 @@
-# Toolbox
+# Playbook
 
 this repo includes all the useful tools such as
 
@@ -7,3 +7,4 @@ this repo includes all the useful tools such as
 - thought and conclusion
 - gotcha!
 - lesson and learned
+- customization & preference
