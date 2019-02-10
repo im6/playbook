@@ -15,7 +15,7 @@ git add --all
 
 git remote -v 
 git remote set-url origin https://github.com/zj1926/xxxxxxxxxxxxxx.git
-git remote show origin
+git remote show origin // show remote git url
 
 git log --oneline
 git reset/revert xx?
