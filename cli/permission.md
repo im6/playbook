@@ -1,4 +1,10 @@
+
+```
+chmod 777 /path/
+```
 ## (0:FileType)(1-3:Owner)(4-6:Group)(7-9:Others)
+
+
 ### FileType:
 ```
 -: Ordinary file
