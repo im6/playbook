@@ -1,8 +1,10 @@
+# change folder/file permission
 
+```sh
+chmod [options] mode[,mode] file1 [file2 ...]
 ```
-chmod 777 /path/
-```
-## (0:FileType)(1-3:Owner)(4-6:Group)(7-9:Others)
+
+## mode: (0:FileType)(1-3:Owner)(4-6:Group)(7-9:Others)
 
 
 ### FileType:
