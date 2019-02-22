@@ -8,6 +8,7 @@ npm config ls # show config in current registry
 
 npm cache verify # before npm v6
 npm cache clean # clean all cache folder, after npm v5
+npm version <major|minor|patch>
 
 ```
 
