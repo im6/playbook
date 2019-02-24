@@ -14,4 +14,4 @@
 - to n-th tab: command + #
 - to next tab: option + command + right/left
 
-- back/forth on tab history: command + right/left
+- back/forth on tab history: command + right/left, command + { 
