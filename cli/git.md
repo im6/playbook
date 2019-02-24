@@ -42,3 +42,5 @@ git branch -D branch_name   # force
 git push origin --delete {the_remote_branch}
 ```
 
+## Directory
+in .git folder, there is "/hooks" folders, and sometime need to remove "pre-commit" in that folder.
