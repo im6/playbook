@@ -9,7 +9,8 @@ git push -u origin master
 git clone xxx
 git clone --recursive http://xxx.com/xx.git   // clone submodule git repo
 
-git commit -a -m ""
+git commit -a -m "some msg"
+git commit -a -m "some msg" --no-verify // bypass pre-commit
 git add -u #只有变化的文件 stage the modified and deleted files
 git add --all
 

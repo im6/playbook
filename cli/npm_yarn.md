@@ -2,6 +2,7 @@
 
 ```bash
 npm info react version   # get version number 
+npm list react # get react all versions
 npm list --depth=0   # get first level dependency and version info
 npm list -g --depth 0 # get global cli package
 npm config ls # show config in current registry
