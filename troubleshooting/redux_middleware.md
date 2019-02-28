@@ -1,3 +1,5 @@
+# redux middleware example
+
 ```js
 const myMiddleWare = store => next => action => {
   // ===================
