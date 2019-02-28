@@ -1,4 +1,4 @@
-### Sharing VPN network with local wifi in windows7, win7下创建WiFi热点共享VPN网络
+# Sharing VPN network with local wifi in windows7
 
 This article is mainly focused on how to share the vpn network access through wifi in windows.  
 本文主要用于将笔记本用作热点，发出带有VPN网络权限的WiFi.  
@@ -6,8 +6,7 @@ This article is mainly focused on how to share the vpn network access through wi
 
 ## Requirement:
 1. PC with win7 and LAN (RJ-45) port; 带有网口的电脑一台；
-2. a wired network; 有线网络；
-3. a vpn software with valid access, ie. Cisco, expressVpn； VPN软件
+2. a wired network; 有线网络；； VPN软件
 
 ## Step
 1. In service, switch the service - windows firewall - from automatic to manual
