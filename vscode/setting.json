@@ -16,5 +16,8 @@
     
     "gitlens.hovers.enabled": false,
     "gitlens.currentLine.enabled": false,
-    "gitlens.hovers.currentLine.over": "line"
+    "gitlens.hovers.currentLine.over": "line",
+    
+    "javascript.suggest.autoImports": false,
+    "typescript.suggest.autoImports": false
 }
