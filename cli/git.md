@@ -41,6 +41,15 @@ git checkout --track origin/<BRANCHE_NAME>
 git branch -d branch_name
 git branch -D branch_name   # force
 git push origin --delete {the_remote_branch}
+
+git stash push
+git stash pop
+git stash apply --index <index of stash> // index 0 is latest stash
+git stash list
+git stash show --index <index of stash>
+git stash drop --index <index of stash>
+
+git push origin "your tag name"
 ```
 
 ## Directory
