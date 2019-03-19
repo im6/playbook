@@ -1,4 +1,6 @@
-# NPM
+# npm-cli
+
+## npm
 
 ```bash
 npm info react version   # get version number 
@@ -9,18 +11,17 @@ npm config ls # show config in current registry
 
 npm cache verify # before npm v6
 npm cache clean # clean all cache folder, after npm v5
-npm version <major|minor|patch>
 
+npm version <major|minor|patch>
 ```
 
 [Scope Definition 1](https://docs.npmjs.com/misc/scope)  
 [Scope Definition 2](https://docs.npmjs.com/getting-started/scoped-packages)  
 @somescope/somepackagename
 
+## yarn
 
-
-# YARN
-```
+```sh
 yarn add <name>
 yarn remove <name>
 ```
