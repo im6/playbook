@@ -83,4 +83,4 @@ git branch -d <hotfix_branch> # remove branch
 
 ## Fast-Forward
 
-Git simply moves the pointer forward. To phrase that another way, when you try to merge one commit with a commit that can be reached by following the first commit’s history, Git simplifies things by moving the pointer forward because there is *no divergent work* to merge together — this is called a “fast-forward.”
+Git simply moves the pointer forward. To phrase that another way, when you try to merge one commit with a commit that can be reached by following the first commit’s history, Git simplifies things by moving the pointer forward because there is __no divergent work__ to merge together — this is called a “fast-forward.”
