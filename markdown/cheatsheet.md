@@ -1,54 +1,64 @@
 # header1
+
 ## header2
+
 ### header3
 
 ## Emphasis
+
 this is *emphasis*  
-this is also a _emphasis_
+this is _emphasis_
+this is __strongEmphasis/bold__
+
 ## Bold
+
 this is **bold**  
 this is also a __bold__
 
-## Blockquote:  
-> this is quote 1  
+## Blockquote
+
+> this is quote 1
 > this is quote 2
 
-## Unordered  
+## Unordered
+Indented by two or three spaces
 * Item 1
 * Item 2
   * Item 2a
   * Item 2b
-  
-  
-## Ordered  
+
+## Ordered
+Indented by three spaces
 1. Item 1
-2. Item 2
-3. Item 3
-  * Item 3a
-  * Item 3b
-  
-  
-  
+1. Item 2
+1. Item 3
+   1. Item 3a
+      1. Item 3a-1
+      1. Item 3a-2
+   1. Item 3b
+
 ## Escape
+
 this is \*backslash\*(escape)
 
+## image
 
-## image  
 ![Github Logo](/image/logo.png)
 
-## links  
+## links
+
 [Github](https://github.com/zj1926 )
 
+## code
 
-## code:  
 ```javascript
 function test(){
   alert('hello world');
 }
 ```
 
+## Emoji
 
-## Emoji:  
 :+1:  
 :sparkles:  
 :camel:  
@@ -57,8 +67,8 @@ function test(){
 :metal:  
 :octocat:  
 
+## task lists
 
-## task lists:  
 - [x] eat
 - [ ] date
 - [x] code **formatting**, and <del>tags</del> supported
@@ -67,6 +77,7 @@ function test(){
 
 
 ## Horizontal Line
+
 Three or more...
 
 ---
