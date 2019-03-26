@@ -1,4 +1,5 @@
-- go to file: ctrl + p
-- go to command: ctrl + p
-- search in workspace: ctrl + shift + r
+- go to file: cmd + p
+- go to command: cmd + shift + p
+- search in workspace: cmd + shift + f
 - show terminal: ctr + `
+- split another editor: cmd + \
