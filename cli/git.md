@@ -12,7 +12,8 @@ git push -u origin master
 git clone xxx
 git clone --recursive http://xxx.com/xx.git # clone submodule git repo
 
-git commit -a -m "some msg"
+git commit -a # automatic stage all the pending changed files
+git commit -m "some msg"
 git commit -a -m "some msg" --no-verify // bypass pre-commit
 git add -u #只有变化的文件 stage the modified and deleted files
 git add --all
@@ -53,13 +54,14 @@ git stash apply --index <index of stash> # index 0 is latest stash
 git stash list
 git stash show --index <index of stash>
 git stash drop --index <index of stash>
+git stash cleaer # delete all the stash change
 
 git push origin "your tag name"
 ```
 
 ## frequeny command combination
 
-### remove branch
+### rename branch
 
 ```sh
 git branch -m old_branch new_branch  # Rename branch locally
@@ -72,7 +74,7 @@ git push --set-upstream origin new_branch # Push the new branch, set local branc
 ```sh
 git checkout master
 git merge <hotfix_branch> --no-commit --no-ff
-git commit -a -m "hot fixed msg"
+git commit -m "hot fixed msg"
 git branch -d <hotfix_branch> # remove branch
 ```
 
