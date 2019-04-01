@@ -6,3 +6,4 @@
 - delete file without recycle: opt + cmd + del
 - full screen: ctr + cmd + f
 - switch between tab: cmd + opt + left/right
+- toggle showing hidden file: cmd + shft + .
