@@ -1,33 +1,45 @@
 # git
 
-## common usage
+## Init
 
 ```sh
 git init
 git add README.md
 git commit -m "first commit"
-git remote add origin https://github.com/analytic-partners/gpse-login.git
+git remote add origin <git_remote_url>
 git push -u origin master
+```
 
+## Clone
+
+```sh
 git clone xxx
 git clone --recursive http://xxx.com/xx.git # clone submodule git repo
 
+```
+
+## Commit
+
+```sh
 git commit -a # automatic stage all the pending changed files
 git commit -m "some msg"
 git commit -a -m "some msg" --no-verify // bypass pre-commit
 git add -u #只有变化的文件 stage the modified and deleted files
 git add --all
+```
 
-git remote -v
-git remote set-url origin https://github.com/zj1926/xxxxxxxxxxxxxx.git
-git remote show origin # show remote git url
+## Reset
 
+```sh
 git log --oneline
 git reset/revert xx?
 git reset <last good SHA> or git reset --hard <last good SHA>  // remove/reset the commit that are not pushed yet.
 git reset --hard HEAD~1 # super reset, remove unpushed commits
 git diff --name-only
+```
+## Config
 
+```sh
 git config --get remote.origin.url
 git config --global user.name
 git config user.name "Foo"
@@ -47,7 +59,10 @@ git branch -d branch_name
 git branch -D branch_name # force
 git push origin --delete <the_remote_branch>
 git checkout -b <new_branch> # short for create branch and checkout it
+```
+## Stash
 
+```sh
 git stash push
 git stash pop
 git stash apply --index <index of stash> # index 0 is latest stash
@@ -76,6 +91,13 @@ git checkout master
 git merge <hotfix_branch> --no-commit --no-ff
 git commit -m "hot fixed msg"
 git branch -d <hotfix_branch> # remove branch
+```
+
+### set remote url
+```sh
+git remote -v
+git remote set-url origin https://github.com/xxx/xxxx.git
+git remote show origin # show remote git url
 ```
 
 ## Directory
