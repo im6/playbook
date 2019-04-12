@@ -93,7 +93,7 @@ nl xxxfile
 ```
 ls -lrt 
 pwd # print working directory
-
+ls | grep shadow
 ```
 
 ## file search
