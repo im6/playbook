@@ -1,5 +1,4 @@
 {
-    
     "workbench.colorTheme": "Default Light+",
     "workbench.statusBar.feedback.visible": false,
     "workbench.iconTheme": "vscode-icons",
@@ -10,6 +9,8 @@
     "editor.tabSize": 2,
     "editor.minimap.enabled": true,
     "editor.wordWrap": "on",
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
     
     "git.confirmSync": false,
     "git.autofetch": true,
