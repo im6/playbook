@@ -1,4 +1,5 @@
 {
+    "workbench.editor.showTabs": true,
     "workbench.colorTheme": "Default Light+",
     "workbench.statusBar.feedback.visible": false,
     "workbench.iconTheme": "vscode-icons",
