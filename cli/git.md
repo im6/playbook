@@ -93,6 +93,19 @@ git commit -m "hot fixed msg"
 git branch -d <hotfix_branch> # remove branch
 ```
 
+### rebase hot fix
+[reference](https://blog.algolia.com/master-git-rebase/)
+```sh
+git branch
+git checkout <master>
+git pull origin <master>
+git rebase <master>
+git add .
+git rebase --continue
+git checkout -b <hotfix>
+git push origin HEAD
+```
+
 ### set remote url
 ```sh
 git remote -v
