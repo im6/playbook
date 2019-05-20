@@ -140,6 +140,8 @@ lsof -i:{port#}
 kill #id
 kill -9 processnumber
 pkill <KEYWORD: gunicorn>
+
+top
 ```
 
 ## mount drive:
@@ -247,8 +249,11 @@ bc
 quit
 ```
 
+# 8. telnet
+# 9. netstat
 
 ## Comparison
 ```
 cmp file1 file2
 ```
+
