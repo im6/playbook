@@ -37,6 +37,7 @@ git reset <last good SHA> or git reset --hard <last good SHA>  // remove/reset t
 git reset --hard HEAD~1 # super reset, remove unpushed commits
 git diff --name-only
 ```
+
 ## Config
 
 ```sh
@@ -60,6 +61,7 @@ git branch -D branch_name # force
 git push origin --delete <the_remote_branch>
 git checkout -b <new_branch> # short for create branch and checkout it
 ```
+
 ## Stash
 
 ```sh
@@ -84,29 +86,40 @@ git push origin :old_branch # Delete the old branch
 git push --set-upstream origin new_branch # Push the new branch, set local branch to track the new remote
 ```
 
-### merge hot fix
+### merge
 
 ```sh
-git checkout master
-git merge <hotfix_branch> --no-commit --no-ff
+git checkout <master>
+git pull
+git merge <my-feature-branch> --no-commit --no-ff
 git commit -m "hot fixed msg"
-git branch -d <hotfix_branch> # remove branch
+git push
+git branch -d <my-feature-branch> # remove branch
 ```
 
-### rebase hot fix
+### rebase
+
+rebase feature into master
 [reference](https://blog.algolia.com/master-git-rebase/)
+
 ```sh
-git branch
 git checkout <master>
-git pull origin <master>
+git pull origin <master> # git pull make sure latest master
+git checkout <my-feature-branch>
+git checkout -b <my-feature-branch-rebase>
 git rebase <master>
+
+# repeat start
+# resolve conflict if any
 git add .
 git rebase --continue
-git checkout -b <hotfix>
+# repeat end
+
 git push origin HEAD
 ```
 
 ### set remote url
+
 ```sh
 git remote -v
 git remote set-url origin https://github.com/xxx/xxxx.git
