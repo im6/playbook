@@ -18,6 +18,14 @@ git clone --recursive http://xxx.com/xx.git # clone submodule git repo
 
 ```
 
+## add
+
+```sh
+git add -A # stages all changes
+git add . # stages new files and modifications, without deletions
+git add -u # stages modifications and deletions, without new files
+```
+
 ## Commit
 
 ```sh
