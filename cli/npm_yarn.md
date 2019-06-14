@@ -19,6 +19,16 @@ npm version <major|minor|patch>
 [Scope Definition 2](https://docs.npmjs.com/getting-started/scoped-packages)  
 @somescope/somepackagename
 
+### NPM install error solution
+
+```sh
+npm cache verify
+npm cache clean --force
+npm i -g npm
+
+# delete package-lock.jso
+```
+
 ## yarn
 
 ```sh
