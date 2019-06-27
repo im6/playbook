@@ -12,6 +12,7 @@
     "editor.wordWrap": "on",
     "editor.insertSpaces": true,
     "editor.detectIndentation": false,
+    "editor.formatOnSave": true,
     
     "git.confirmSync": false,
     "git.autofetch": true,
