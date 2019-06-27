@@ -6,4 +6,3 @@
 - Replication
 - Cluster
 - Replication and Cluster
-
