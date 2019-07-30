@@ -99,7 +99,8 @@ git push --set-upstream origin new_branch # Push the new branch, set local branc
 ```sh
 git checkout <master>
 git pull
-git merge <my-feature-branch> --no-commit --no-ff
+EITHER git merge <my-feature-branch> --no-commit --no-ff
+OR git merge <my-feature-branch> --squash
 git commit -m "hot fixed msg"
 git push
 git branch -d <my-feature-branch> # remove branch
@@ -141,4 +142,4 @@ git remote show origin # show remote git url
 
 ## Fast-Forward
 
-Git simply moves the pointer forward. To phrase that another way, when you try to merge one commit with a commit that can be reached by following the first commit’s history, Git simplifies things by moving the pointer forward because there is __no divergent work__ to merge together — this is called a “fast-forward.”
+Git simply moves the pointer forward. To phrase that another way, when you try to merge one commit with a commit that can be reached by following the first commit’s history, Git simplifies things by moving the pointer forward because there is **no divergent work** to merge together — this is called a “fast-forward.”
