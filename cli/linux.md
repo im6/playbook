@@ -1,19 +1,26 @@
-
 # 1. Execute flow
+
 分号可以让两个 command 连续运作，不考虑 command1 的输出状态； && 则前一个指令必需没有错误信息，亦即返回值需为 0 ，则 command2 才会被执行； || 则与 && 相反
+
 ```
-command & means "run command in the background."   
-command1 && command2 means "run command1 and if it completes successfully, run command2 afterwards."   
-command1 | command2:  file.csv | python xxxx.py   pipeline stuff, for line in sys.stdin:  
+command & means "run command in the background."
+command1 && command2 means "run command1 and if it completes successfully, run command2 afterwards."
+command1 | command2:  file.csv | python xxxx.py   pipeline stuff, for line in sys.stdin:
 ```
+
 ## 1.1
+
 "\\" is used to continue typing in next line
+
 ```
 aws cloudformation create-stack \
     --stack-name lambda-file-processing \
 ```
+
 # 2. Download & Installation
-## apt-get command 
+
+## apt-get command
+
 ```
 sudo apt-get upgrade: actually install all the update
 sudo apt-get update: update list of available pkgs
@@ -25,7 +32,9 @@ sudo apt-get remove nodejs
 sudo apt-get purge packagename
 sudo apt-get remove --purge packagename
 ```
+
 ## download & get:
+
 ```
 curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash -
 curl -X GET --header 'header1:value1' --header 'header2:value2' 'http://<target endopint>' # endpoint testing
@@ -34,13 +43,16 @@ sudo wget -o '/Downloads' 'https://nodejs.org/dist/v6.10.3/node-v6.10.3-linux-x6
 ```
 
 ## compression & uncomp:
+
 ```
 tar -czvf name-of-archive.tar.gz /path/to/directory-or-file
 tar -zxvf Python-2.7.12.tgz
 ```
 
 # 3. System Info
+
 ## System Monitor
+
 ```
 top
 top -u tecmint
@@ -48,27 +60,36 @@ top -n 1 -b > top-output.txt
 ```
 
 ## Kernal info:
+
 ```
 uname -a
 uname -v
 uname -r
 ```
+
 ## check ip address:
+
 ```
 dig +short myip.opendns.com @resolver1.opendns.com
 ip addr
 ```
-## check ubuntu version: 
+
+## check ubuntu version:
+
 ```
 lsb_release -a
 ```
-## check last system boot:   
+
+## check last system boot:
+
 ```
-who -b   
+who -b
 last reboot | head -1
 uptime  # how long sysm is running
 ```
+
 ## ubuntu version
+
 ```
 lsb_release -rs # Get current Ubuntu vesion
 
@@ -77,11 +98,13 @@ lsb_release -rs # Get current Ubuntu vesion
 # 4. Operation Command
 
 ## User activity
+
 ```
 w
 ```
 
 ## preview file
+
 ```
 head filename.csv -n 10
 tail /path/to/file
@@ -89,35 +112,45 @@ cat xxxfile
 tac xxxfile
 nl xxxfile
 ```
+
 ## view structure
+
 ```
-ls -lrt 
+ls -lrt
 pwd # print working directory
 ls | grep <keyword>
 ```
 
 ## file search
+
 ```
 locate file1 dir1
 locate "*.html" | less
 ```
+
 ## file size
+
 ```
 du -ah
-du -sh 
+du -sh
 df -h # disk usage
 free -m # RAM usage
 ```
+
 ## line number
+
 ```
 wc -l <filename>
 ```
+
 ## file search:
+
 ```
 find -iname "<whole file name>"
 ```
 
 ## file operation:
+
 ```
 mkdir /path/to/create
 touch filename.js
@@ -133,10 +166,11 @@ gzip -d file ## Decompress
 ```
 
 ## process operation:
+
 ```
 ps -ef | grep nohup
 ps aux | grep apt
-lsof -i:{port#} 
+lsof -i:{port#}
 kill #id
 kill -9 processnumber
 pkill <KEYWORD: gunicorn>
@@ -145,58 +179,67 @@ top
 ```
 
 ## mount drive:
+
 ```
 sudo mount /dev/{location} /{mount_point}
 sudo umount {mount_point}
 ```
 
 ## sequence operation:
+
 ```
 echo 123 > output.txt
 cat sth > python sth.py
 ```
 
 ## file transfer:
+
 ```
 $ scp ~/local/file user@remote:~/file
 ```
 
 ## service setup:
+
 ```
 sudo ln -s /opt/utorrent-server-v3_0/utserver /usr/bin/utserver
 ```
 
 ## file permission
-| # | Permission              | rwx |
-|---|-------------------------|-----|
-| 7 | read, write and execute | rwx |
-| 6 | read and write          | rw- |
-| 5 | read and execute        | r-x |
-| 4 | read only               | r-- |
-| 3 | write and execute       | -wx |
-| 2 | write only              | -w- |
-| 1 | execute only            | --x |
-| 0 | none                    | --- |
+
+| #   | Permission              | rwx |
+| --- | ----------------------- | --- |
+| 7   | read, write and execute | rwx |
+| 6   | read and write          | rw- |
+| 5   | read and execute        | r-x |
+| 4   | read only               | r-- |
+| 3   | write and execute       | -wx |
+| 2   | write only              | -w- |
+| 1   | execute only            | --x |
+| 0   | none                    | --- |
+
 ```sh
 chmod [options] mode[,mode] file1 [file2 ...]
+chmod +x shell.sh # macbook give shell exec access
 namei -l <PATHNAME>  // display the permission config of each files/paths
 ```
 
 ## Environment Var
+
 ```
 env
 echo $PATH
 ```
 
+## Execution result: error = 0/1
 
-## Execution result: error = 0/1 
 ```
 echo $?
 ```
 
-
 # 5. UFW Firewall Setup:
+
 [ufw setup quickstart](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-firewall-with-ufw-on-ubuntu-16-04 "Digital Occean")
+
 ```
 sudo apt-get update
 sudo apt-get install ufw
@@ -224,7 +267,8 @@ sudo ufw default allow outgoing
 sudo ufw delete allow ssh / sudo ufw delete [number]
 ```
 
-CentOS firewall  
+CentOS firewall
+
 ```
 # 安装防火墙
 yum install firewalld
@@ -236,24 +280,26 @@ firewall-cmd --reload
 ```
 
 # 6. port information
+
 ```
 netstat -tlnp
 ```
 
-
-
 # 7. Utility
+
 ## Calculator
+
 ```
 bc
 quit
 ```
 
 # 8. telnet
+
 # 9. netstat
 
 ## Comparison
+
 ```
 cmp file1 file2
 ```
-
