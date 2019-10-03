@@ -1,5 +1,14 @@
 # git
 
+## User Initialization
+
+```sh
+git config --global user.name "<your username>"
+git config --global user.email "<your email>"
+git config --global user.name
+git config --global user.email
+```
+
 ## Init
 
 ```sh
@@ -52,7 +61,6 @@ git diff --name-only
 git config --get remote.origin.url
 git config --global user.name
 git config user.name "Foo"
-git config --global user.name "Foo"
 git config --global --list
 git config -l #list all the information for the .git folder
 git rm -r --cached myFolder #删除version但是留下本地
