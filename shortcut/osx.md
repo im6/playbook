@@ -1,4 +1,5 @@
 # Macbook system shortcut
+
 - lock screen: ctrl + shift + power
 - sleep: cmd + opt + eject
 - go to folder: shift + cmd + G
