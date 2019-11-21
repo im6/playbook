@@ -1,5 +1,6 @@
 # VSCode shortcut cheatsheet
 
+- clear all backlog: `cmd` + K
 - go to file: `cmd` + p
 - go to command: `cmd` + `shift` + p
 - search in workspace: `cmd` + `shift` + f
