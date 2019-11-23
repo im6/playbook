@@ -1,4 +1,4 @@
-# VSCode shortcut cheatsheet
+# VSCode shortcut
 
 - clear all backlog: `cmd` + K
 - go to file: `cmd` + p
