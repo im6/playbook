@@ -23,6 +23,7 @@ git push -u origin master
 
 ```sh
 git clone xxx
+git clone https://github.com/user/userApp.git <newFolderName>
 git clone --recursive http://xxx.com/xx.git # clone submodule git repo
 
 ```
