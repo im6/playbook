@@ -17,7 +17,9 @@ docker kill <name>
 ```sh
 docker image ls
 docker image rm <image Id> --force
+docker build -t <username>/<image name> .
 docker run <image Id>
+docker run --env-file <env path> --name <tag name> -p <external port>:<app local port> -d <username>/<image name>
 docker stop <image Id>
 ```
 
@@ -26,6 +28,7 @@ docker stop <image Id>
 ```sh
 docker container ls
 docker container ls --all
+docker ps
 docker container pull <image Id>
 docker container run <image Id> # pull and run
 docker container kill <container Id>
