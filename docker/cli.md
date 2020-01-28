@@ -7,20 +7,17 @@
 ```sh
 docker version
 docker run hello-world
-docker run --name <name> -d -it <image id>
-docker container exec -it <container id> /bin/bash
-docker kill <name>
+docker stop <ontainer name>
+docker start <container name>
+docker kill <container name>
 ```
 
 ## image
 
 ```sh
 docker image ls
-docker image rm <image Id> --force
 docker build -t <username>/<image name> .
-docker run <image Id>
-docker run --env-file <env path> --name <tag name> -p <external port>:<app local port> -d <username>/<image name>
-docker stop <image Id>
+docker image rm <image Id> --force
 ```
 
 ## container
@@ -31,8 +28,11 @@ docker container ls --all
 docker ps
 docker container pull <image Id>
 docker container run <image Id> # pull and run
+docker run --env-file <env path> --name <tag name> -p <external port>:<app local port> -d <username>/<image name>
+docker run --name <container name> -d -it <image id>
+docker container exec -it <container name> /bin/bash # log into background running container
 docker container kill <container Id>
-docker container rm <container Id> # to save space
+docker container rm <container name> # to save space
 ```
 
 ## service control
