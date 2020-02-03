@@ -28,6 +28,12 @@ to update the env var
 JAVA_HOME="/usr/lib/jvm/java-11-openjdk-amd64/bin/"
 ```
 
+for vscode
+
+```vim
+JAVA_HOME="/usr/lib/jvm/java-11-openjdk-amd64/"
+```
+
 reload and verify
 
 ```sh
