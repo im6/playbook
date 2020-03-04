@@ -1,26 +1,24 @@
 {
-    "workbench.editor.showTabs": true,
-    "workbench.colorTheme": "Default Light+",
-    "workbench.statusBar.feedback.visible": false,
-    "workbench.iconTheme": "vscode-icons",
-    
-    "files.autoSave": "onFocusChange",
-    
-    "editor.fontSize": 13,
-    "editor.tabSize": 2,
-    "editor.minimap.enabled": true,
-    "editor.wordWrap": "on",
-    "editor.insertSpaces": true,
-    "editor.detectIndentation": false,
-    "editor.formatOnSave": true,
-    
-    "git.confirmSync": false,
-    "git.autofetch": true,
-    
-    "gitlens.hovers.enabled": false,
-    "gitlens.currentLine.enabled": false,
-    "gitlens.hovers.currentLine.over": "line",
-    
-    "javascript.suggest.autoImports": false,
-    "typescript.suggest.autoImports": false
+  "workbench.editor.showTabs": true,
+  "workbench.editor.limit.enabled": true,
+  "workbench.editor.limit.value": 6,
+
+  "workbench.colorTheme": "Default Light+",
+  "workbench.iconTheme": "vscode-icons",
+
+  "files.autoSave": "onFocusChange",
+
+  "editor.fontSize": 13,
+  "editor.tabSize": 2,
+  "editor.minimap.enabled": true,
+  "editor.wordWrap": "on",
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
+  "editor.formatOnSave": true,
+
+  "git.confirmSync": false,
+  "git.autofetch": true,
+
+  "javascript.suggest.autoImports": false,
+  "typescript.suggest.autoImports": false
 }
