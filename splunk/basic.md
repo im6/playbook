@@ -18,6 +18,21 @@ cd /opt/splunk/bin
 
 ```splunk
 (boot OR startup) AND (finish OR complete)
-
+source=www.*(hello OR world).com
 
 ```
+
+# Pipe
+
+```spunk
+* | rex | dedup name
+```
+
+# Slack integration
+
+- app name: slack notification alert
+- in slack, add webhook
+- copy webhook url
+- edit alert, manage actions, setup slack alerts
+- page webhook url
+-
