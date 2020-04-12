@@ -1,6 +1,7 @@
 # Redis install
 
-[digital occean tutorial](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-redis)  
+[digital occean tutorial old](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-redis)
+[digital occean tutorial new](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-redis-on-ubuntu-16-04)  
 [official reference](https://redis.io/topics/quickstart)
 
 ## Installation
