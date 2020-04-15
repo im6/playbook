@@ -24,8 +24,18 @@ source=www.*(hello OR world).com
 
 # Pipe
 
-```spunk
+```splunk
 * | rex | dedup name
+query | eval animalName = spath(_raw, "animal.name")
+query | eval varType = case(isstr(oneProp), "str", a==2, "num", match(foodName, "bird"), "bird", 1==1, "other")
+```
+
+# Chart
+
+```splunk
+query | timechart count by dim0
+query | stats count by dim0
+query | chart count by dim0 dim1 | sort 5 -dim0 | fields - dim3 | fields dim1, dim0, *
 ```
 
 # Slack integration
