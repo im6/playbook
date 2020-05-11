@@ -25,3 +25,9 @@ query | timechart count by dim0
 query | stats count by dim0
 query | chart count by dim0 dim1 | sort 5 -dim0 | fields - dim3 | fields dim1, dim0, *
 ```
+
+## release annotation
+
+```
+query | rex mode=sed field=_raw "s/app.version/appVersion/g" | eval version = spath(_raw, "context.appVersion") | dedup version sortby +_time | eventstats first(version) as initialVersion | where version > initialVersion | eval annotation_label = version | eval annotation_color = "#29583f"
+```
