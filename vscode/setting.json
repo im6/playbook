@@ -10,7 +10,7 @@
 
   "editor.fontSize": 13,
   "editor.tabSize": 2,
-  "editor.minimap.enabled": true,
+  "editor.minimap.enabled": false,
   "editor.wordWrap": "on",
   "editor.insertSpaces": true,
   "editor.detectIndentation": false,
