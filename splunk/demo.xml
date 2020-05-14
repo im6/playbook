@@ -1,0 +1,7 @@
+<form theme="dark">
+  <init>
+    <set token="name">Tom Hanks</set>
+    <set token="animal">Dog</set>
+    <set token="age">2 months</set>
+  </init>
+</form>
