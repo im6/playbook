@@ -1,4 +1,4 @@
-# GIT
+# Git Flow
 
 ## User Initialization
 
@@ -82,6 +82,7 @@ git checkout -b <new_branch> # short for create branch and checkout it
 ## Stash
 
 ```sh
+git stash # equal to push
 git stash push
 git stash pop
 git stash apply --index <index of stash> # index 0 is latest stash
@@ -113,6 +114,7 @@ OR git merge <my-feature-branch> --squash
 git commit -m "hot fixed msg"
 git push
 git branch -d <my-feature-branch> # remove branch
+git merge --abort # abort the merge process
 ```
 
 ### rebase
