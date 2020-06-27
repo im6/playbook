@@ -27,12 +27,12 @@ bind "alt" "buy hegrenade;"
 // with keyboard
 bind "kp_pgup" "buy awp;"
 bind "kp_home" "buy ak47; buy m4a1;"
+bind "kp_uparrow" "buy aug; buy sg556;"
 bind "kp_downarrow" "buy deagle;"
+bind "kp_leftarrow" "buy mp9; buy mac10;"
 bind "kp_ins" "buy vesthelm;"
 bind "kp_del" "buy flashbang;"
 bind "kp_multiply" "buy smokegrenade;"
 bind "kp_minus" "buy defuser;"
 bind "kp_slash" "buy incgrenade; buy molotov;"
-
-
 ```
