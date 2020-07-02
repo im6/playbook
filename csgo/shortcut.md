@@ -6,9 +6,13 @@
 
 ```
 mp_maxrounds 99999
+mp_roundtime 99999
 mp_autoteambalance 0
 mp_limitteams 0
-mp_freezetime 15 // sec
+mp_freezetime 0 // sec
+
+mp_restartgame 1
+mp_maxmoney 65535
 ```
 
 ## purchase shortcut
