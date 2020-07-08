@@ -13,6 +13,9 @@ mp_freezetime 0 // sec
 
 mp_maxmoney 65535
 mp_restartgame 1
+
+changelevel MAPCODE // change map
+sv_showimpacts 0
 ```
 
 ## mouse configuration
@@ -20,7 +23,7 @@ mp_restartgame 1
 [ref](https://dmarket.com/blog/csgo-mouse-settings/)
 
 ```
-sensitivity 1.8 // for 400 DPI
+sensitivity 1.2 // for 400 DPI
 m_rawinput 1
 m_customaccel 0
 ```
@@ -32,10 +35,10 @@ m_customaccel 0
 ```
 // macbook arrow keys
 bind "uparrow" "buy vesthelm;"
-bind "downarrow" "buy deagle;"
+bind "downarrow" "buy flashbang;"
 bind "leftarrow" "buy awp;"
 bind "rightarrow" "buy ak47; buy m4a1;"
-bind "alt" "buy hegrenade;"
+bind "alt" "buy hegrenade;" // mac os: option; win: alt
 
 
 // with keyboard
