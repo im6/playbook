@@ -1,4 +1,11 @@
-# shortcut console
+# console command
+
+## movement bind
+
+```
+bind shift +duck;
+bind mwheeldown +jump;
+```
 
 ## multi-player gaming config
 
@@ -23,7 +30,7 @@ sv_showimpacts 0
 [ref](https://dmarket.com/blog/csgo-mouse-settings/)
 
 ```
-sensitivity 1.2 // for 400 DPI
+sensitivity 1.3 // for 400 DPI
 m_rawinput 1
 m_customaccel 0
 ```
