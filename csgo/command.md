@@ -1,10 +1,17 @@
 # console command
 
+## crosshair
+
+```
+alex
+```
+
 ## movement bind
 
 ```
-bind shift +duck;
-bind mwheeldown +jump;
+bind ctrl +speed; bind shift +duck
+bind mwheelup +jump; bind mwheeldown +jump
+unbind mwheelup
 ```
 
 ## multi-player gaming config
@@ -18,6 +25,7 @@ mp_autoteambalance 0
 mp_limitteams 0
 mp_freezetime 0 // sec
 
+mp_ignore_round_win_conditions 0
 mp_maxmoney 65535
 mp_restartgame 1
 
