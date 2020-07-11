@@ -1,3 +1,6 @@
+# user settings
+
+```json
 {
   "workbench.editor.showTabs": true,
   "workbench.editor.limit.enabled": true,
@@ -21,5 +24,16 @@
   "git.autofetch": true,
 
   "javascript.suggest.autoImports": false,
+  
   "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe"
 }
+```
+
+## font choice
+
+```json
+{
+    "editor.fontFamily": "Consolas, monospace", // for windows
+    "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace", // for mac
+}
+```
