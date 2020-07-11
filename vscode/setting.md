@@ -10,6 +10,7 @@
   "workbench.iconTheme": "vscode-icons",
 
   "files.autoSave": "onFocusChange",
+  "files.insertFinalNewline": true,
 
   "editor.fontSize": 13,
   "editor.tabSize": 2,
