@@ -11,6 +11,7 @@
 
   "files.autoSave": "onFocusChange",
   "files.insertFinalNewline": true,
+  "files.eol": "\n",
 
   "editor.fontSize": 13,
   "editor.tabSize": 2,
@@ -25,7 +26,7 @@
   "git.autofetch": true,
 
   "javascript.suggest.autoImports": false,
-  
+
   "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe"
 }
 ```
@@ -34,7 +35,7 @@
 
 ```json
 {
-    "editor.fontFamily": "Consolas, monospace", // for windows
-    "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace", // for mac
+  "editor.fontFamily": "Consolas, monospace", // for windows
+  "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace" // for mac
 }
 ```
