@@ -1,5 +1,7 @@
 # user settings
 
+## general
+
 ```json
 {
   "workbench.editor.showTabs": true,
@@ -25,17 +27,35 @@
   "git.confirmSync": false,
   "git.autofetch": true,
 
-  "javascript.suggest.autoImports": false,
-
-  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe"
+  "javascript.suggest.autoImports": false
 }
 ```
 
-## font choice
+## app specific
+
+```json
+{
+  "search.exclude": {
+    "**/dist": true
+  }
+}
+```
+
+## OS specific
+
+### Windows
 
 ```json
 {
   "editor.fontFamily": "Consolas, monospace", // for windows
+  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe"
+}
+```
+
+## Mac OS
+
+```json
+{
   "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace" // for mac
 }
 ```
