@@ -8,7 +8,8 @@ git config --global user.email "<your email>"
 git config --global user.name
 git config --global user.email
 
-git config --global core.autocrlf false # use Unit eof
+git config --global core.eol lf # will be ignored if autocrlf is truthy
+git config --global core.autocrlf false # use Unix eof
 ```
 
 ## Init

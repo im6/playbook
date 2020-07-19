@@ -13,7 +13,6 @@
 
   "files.autoSave": "onFocusChange",
   "files.insertFinalNewline": true,
-  "files.eol": "\n",
 
   "editor.fontSize": 13,
   "editor.tabSize": 2,
