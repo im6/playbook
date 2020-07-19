@@ -59,6 +59,19 @@ git reset --hard HEAD~1 # super reset, remove unpushed commits
 git diff --name-only
 ```
 
+## tag
+
+tag should be push only after all the commits have been pushed to remote.
+[ref](https://www.atlassian.com/git/tutorials/inspecting-a-repository/git-tag)
+
+```sh
+git tag # show tag list'
+git tag v1.2.3 # create lightweight tag locally
+git tag -a v1.4 -m "description text" # create annotated tag locally
+git tag -d v1.4 # delete local tag
+git push origin v1.4 # push local new tag to remote
+```
+
 ## Config
 
 ```sh
