@@ -1,19 +1,21 @@
-```
-$ sudo apt-get install python-pip python<VERSION>-dev build-essential
-$ sudo pip install --upgrade pip
-$ sudo pip install --upgrade virtualenv
+# install python 3
+
+```sh
+sudo apt-get install python3-pip python<VERSION>-dev build-essential
+sudo pip install --upgrade pip
+sudo pip install --upgrade virtualenv
 ```
 
-### Simple version
+## Simple version
 
-```
+```sh
 sudo apt-get install python-pip
 pip install --upgrade pip
 pip install virtualenv
 virtualenv -p python3 <ENV_Name>
 ```
 
-#### virtualenv on ubuntu v18.04
+### virtualenv on ubuntu v18.04
 
 ```sh
 sudo apt-get install python-virtualenv
@@ -21,7 +23,7 @@ sudo apt-get install python-virtualenv
 
 ### Necessary: python`<VERSION`>-dev
 
-```
+```sh
 For Python 2.x use:
    $ sudo apt-get install python-dev
 For Python 2.7 use:
@@ -36,7 +38,7 @@ For Python 3.6 use:
    $ sudo apt-get install python3.6-dev
 ```
 
-### Optional:
+### Optional
 
 libpq-dev: C application programmer's interface to PostgreSQL  
 libxml2-dev: XML C parser and toolkit developed for the Gnome project  
