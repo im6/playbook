@@ -2,13 +2,11 @@
 
 ## crosshair
 
-```
-alex
-```
+- alex
 
 ## movement bind
 
-```
+```sh
 bind ctrl +speed; bind shift +duck
 bind mwheelup +jump; bind mwheeldown +jump
 unbind mwheelup
@@ -18,7 +16,7 @@ unbind mwheelup
 
 [cmd wiki](https://totalcsgo.com/commands)
 
-```
+```sh
 mp_maxrounds 99999
 mp_roundtime 99999
 mp_autoteambalance 0
@@ -37,7 +35,7 @@ sv_showimpacts 0
 
 [ref](https://dmarket.com/blog/csgo-mouse-settings/)
 
-```
+```sh
 sensitivity 1.3 // for 400 DPI
 m_rawinput 1
 m_customaccel 0
@@ -47,13 +45,14 @@ m_customaccel 0
 
 [online generator](https://csgobuynds.com/)
 
-```
+```sh
 // macbook arrow keys
 bind "uparrow" "buy vesthelm;"
 bind "downarrow" "buy flashbang;"
 bind "leftarrow" "buy awp;"
 bind "rightarrow" "buy ak47; buy m4a1;"
 bind "alt" "buy hegrenade;" // mac os: option; win: alt
+bind "kp_5" "buy mp7;"
 
 
 // with keyboard
