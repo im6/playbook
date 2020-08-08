@@ -5,7 +5,7 @@
 [ref](https://dmarket.com/blog/csgo-mouse-settings/)
 
 ```sh
-sensitivity 1.3 // for 400 DPI
+sensitivity 1.0 // for 400 DPI
 m_rawinput 1
 m_customaccel 0
 ```
