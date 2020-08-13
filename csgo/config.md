@@ -50,9 +50,14 @@ closeonbuy 1
 ## keyboard movement bind
 
 ```sh
-bind ctrl +speed; bind shift +duck
 bind mwheelup +jump; bind mwheeldown +jump
 unbind mwheelup
+```
+
+optional duck
+
+```sh
+bind ctrl +speed; bind shift +duck
 ```
 
 ## multi-player gaming config
