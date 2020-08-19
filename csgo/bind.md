@@ -25,6 +25,7 @@ bind "kp_uparrow" "buy aug; buy sg556;"
 bind "kp_pgup" "buy awp;"
 
 // equipment
+bind "alt" "buy hegrenade;" // optional
 bind "kp_ins" "buy hegrenade;"
 bind "kp_del" "buy flashbang;"
 bind "kp_multiply" "buy smokegrenade;"
