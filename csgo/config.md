@@ -65,15 +65,16 @@ bind ctrl +speed; bind shift +duck
 [cmd wiki](https://totalcsgo.com/commands)
 
 ```sh
-mp_maxrounds 99999
-mp_roundtime 99999
 mp_autoteambalance 0
-mp_limitteams 0
+mp_buytime 150
 mp_freezetime 0 // sec
-
 mp_ignore_round_win_conditions 0
+mp_limitteams 0
 mp_maxmoney 65535
+mp_maxrounds 99999
 mp_restartgame 1
+mp_round_restart_delay 0
+mp_roundtime 99999
 
 changelevel MAPCODE // change map
 sv_showimpacts 0
