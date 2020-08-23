@@ -47,19 +47,6 @@ cl_fixedcrosshairgap "3"
 closeonbuy 1
 ```
 
-## keyboard movement bind
-
-```sh
-bind mwheelup +jump; bind mwheeldown +jump
-unbind mwheelup
-```
-
-optional duck
-
-```sh
-bind ctrl +speed; bind shift +duck
-```
-
 ## multi-player gaming config
 
 [cmd wiki](https://totalcsgo.com/commands)
