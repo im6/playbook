@@ -2,7 +2,7 @@
 
 [online generator](https://csgobuynds.com/)
 
-[Weapon Spreadsheet](https://docs.google.com/spreadsheets/d/11tDzUNBq9zIX6_9Rel__fdAUezAQzSnh5AVYzCP060c/edit#gid=0)
+[weapon spreadsheet](https://docs.google.com/spreadsheets/d/11tDzUNBq9zIX6_9Rel__fdAUezAQzSnh5AVYzCP060c/edit#gid=0)
 
 [human benchmark](https://humanbenchmark.com/)
 
