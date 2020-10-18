@@ -5,7 +5,7 @@
 [ref](https://dmarket.com/blog/csgo-mouse-settings/)
 
 ```sh
-sensitivity 0.75 // Logitech M510 1000 DPI
+sensitivity 0.7 // Logitech M510 1000 DPI
 m_rawinput 1
 m_customaccel 0
 ```
