@@ -4,29 +4,34 @@
 
 ```json
 {
-  "workbench.editor.showTabs": true,
-  "workbench.editor.limit.enabled": true,
-  "workbench.editor.limit.value": 6,
-
-  "workbench.colorTheme": "Default Light+",
-  "workbench.iconTheme": "vscode-icons",
-
-  "files.autoSave": "onFocusChange",
-  "files.insertFinalNewline": true,
-
   "editor.fontSize": 13,
   "editor.tabSize": 2,
   "editor.minimap.enabled": false,
   "editor.wordWrap": "on",
   "editor.insertSpaces": true,
   "editor.detectIndentation": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "editor.formatOnPaste": false,
+
+  "explorer.confirmDelete": false,
+
+  "files.autoSave": "onFocusChange",
+  "files.insertFinalNewline": true,
 
   "git.confirmSync": false,
   "git.autofetch": true,
 
-  "javascript.suggest.autoImports": false
+  "javascript.suggest.autoImports": false,
+  "search.exclude": {
+    "**/dist": true
+  },
+
+  "workbench.editor.showTabs": true,
+  "workbench.editor.limit.enabled": true,
+  "workbench.editor.limit.value": 6,
+  "workbench.colorTheme": "Default Light+",
+  "workbench.iconTheme": "vscode-icons"
 }
 ```
 
