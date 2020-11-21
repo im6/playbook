@@ -23,9 +23,6 @@
   "git.autofetch": true,
 
   "javascript.suggest.autoImports": false,
-  "search.exclude": {
-    "**/dist": true
-  },
 
   "workbench.editor.showTabs": true,
   "workbench.editor.limit.enabled": true,
