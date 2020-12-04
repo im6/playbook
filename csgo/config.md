@@ -13,6 +13,7 @@ m_customaccel 0
 ### crosshair
 
 - alex
+- dev1ce
 - SZPERO
 
 ```sh
@@ -26,7 +27,7 @@ cl_crosshair_outlinethickness "1"
 cl_crosshair_sniper_show_normal_inaccuracy "0"
 cl_crosshair_sniper_width "1"
 cl_crosshair_t "0"
-cl_crosshairalpha "255"
+cl_crosshairalpha "220"
 cl_crosshaircolor "1"
 cl_crosshaircolor_b "50"
 cl_crosshaircolor_g "250"
