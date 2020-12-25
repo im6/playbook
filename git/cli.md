@@ -56,6 +56,7 @@ git log --oneline
 git reset/revert xx?
 git reset <last good SHA> or git reset --hard <last good SHA>  // remove/reset the commit that are not pushed yet.
 git reset --hard HEAD~1 # super reset, remove unpushed commits
+git reset --soft HEAD~1 # revert commit, but keep the unpushed changes in local
 git diff --name-only
 ```
 
