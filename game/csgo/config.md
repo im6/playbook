@@ -15,6 +15,7 @@ m_customaccel 0
 - alex
 - dev1ce
 - SZPERO
+- kennyS
 
 ```sh
 cl_crosshair_drawoutline "0"

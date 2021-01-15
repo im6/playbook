@@ -1,4 +1,0 @@
-/test
-/\ctest
-n
-N
