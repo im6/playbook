@@ -47,6 +47,7 @@
 - dw: delete a word
 - x: delete one letter
 - 10x: delete right 10 letters
+- :1,$d: delete all content in the file
 
 ### change
 
@@ -89,11 +90,4 @@
 :bn            # Go to next file.
 :bp            # Go to previous file.
 :bw            # Close file.
-```
-
-## tab
-
-```sh
-:tabnew <filename>
-gt, gT
 ```
