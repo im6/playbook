@@ -5,6 +5,7 @@ syntax enable
 set nocompatible
 set noswapfile
 set history=150
+set visualbell
 
 " editor
 set expandtab
