@@ -29,3 +29,8 @@ let g:netrw_preview = 1
 " file encoding
 set encoding=utf-8
 
+" split
+set splitbelow
+set splitright
+
+autocmd vimenter * NERDTree
