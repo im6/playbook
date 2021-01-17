@@ -33,4 +33,7 @@ set encoding=utf-8
 set splitbelow
 set splitright
 
+" NERDTree
+let NERDTreeShowHidden = 1
+
 autocmd vimenter * NERDTree

@@ -47,7 +47,7 @@
 - dw: delete a word
 - x: delete one letter
 - 10x: delete right 10 letters
-- :1,$d: delete all content in the file
+- 1,$d: delete all content in the file
 
 ### change
 
