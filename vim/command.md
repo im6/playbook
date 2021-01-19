@@ -58,3 +58,9 @@ vs <filePath>
 <Ctrl-w>+c: close current split
 <Ctrl-w>+n: new split
 ```
+
+## Terminal
+
+```sh
+<Ctrl-w> + <shift + n>: pause the terminal, click `i` to return
+```

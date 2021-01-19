@@ -35,5 +35,6 @@ set splitright
 
 " NERDTree
 let NERDTreeShowHidden = 1
+let NERDTreeMinimalUI = 1
 
 autocmd vimenter * NERDTree

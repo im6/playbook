@@ -3,6 +3,7 @@
 ## cursor
 
 - hjkl: basic movement
+- H/M/L: jump to top, middle and bottom
 - gg: move to top
 - G: move to bottom
 - 5G: move
@@ -19,6 +20,9 @@
 - ^$: jump to start/end of line
 - %: jump to the corresponding closing symbol
 - \*: jump to all other reference word, click `n` to find next
+- 10: jump to line 10
+- Ctrl+u/d: jump half page
+- Ctrl+b/f: jump full page
 
 ## edit
 
@@ -63,6 +67,7 @@
 - v: select by character
 - V: select whole line
 - ctrl+v: vertical select visual
+- ggVG: select all lines in file
 
 ## command
 
@@ -91,3 +96,8 @@
 :bp            # Go to previous file.
 :bw            # Close file.
 ```
+
+## Search
+
+- /: start a search, click `n` and `N` to move
+- noh: turn off highlight search
