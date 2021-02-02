@@ -26,21 +26,21 @@ cl_crosshair_dynamic_splitdist "7"
 cl_crosshair_friendly_warning "1"
 cl_crosshair_outlinethickness "1"
 cl_crosshair_sniper_show_normal_inaccuracy "0"
-cl_crosshair_sniper_width "1"
+cl_crosshair_sniper_width "0"
 cl_crosshair_t "0"
-cl_crosshairalpha "220"
+cl_crosshairalpha "180"
 cl_crosshaircolor "1"
-cl_crosshaircolor_b "50"
-cl_crosshaircolor_g "250"
-cl_crosshaircolor_r "50"
+cl_crosshaircolor_b "255"
+cl_crosshaircolor_g "255"
+cl_crosshaircolor_r "255"
 cl_crosshairdot "0"
-cl_crosshairgap "-2"
+cl_crosshairgap "-3"
 cl_crosshairgap_useweaponvalue "0"
-cl_crosshairsize "3"
+cl_crosshairsize "2"
 cl_crosshairstyle "4"
 cl_crosshairthickness "1"
 cl_crosshairusealpha "1"
-cl_fixedcrosshairgap "3"
+cl_fixedcrosshairgap "-3"
 ```
 
 ## purchase
@@ -67,4 +67,6 @@ mp_roundtime 99999
 
 changelevel MAPCODE // change map
 sv_showimpacts 0
+
+cl_showpos 1
 ```

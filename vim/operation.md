@@ -62,6 +62,10 @@
 - r: replace the letter
 - R: replace and eating the rest of the line
 
+## Move Line
+
+- ddkp / ddkP : copy the current line to lower or upper
+
 ## visual
 
 - v: select by character
