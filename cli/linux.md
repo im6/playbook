@@ -234,9 +234,11 @@ echo $?
 
 [ufw setup quickstart](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-firewall-with-ufw-on-ubuntu-16-04 "Digital Occean")
 
-```
+```sh
 sudo apt-get update
 sudo apt-get install ufw
+sha256sum <file> # checksum for downloads
+md5sum <file>
 
 sudo ufw status / sudo ufw status numbered / sudo ufw status verbose
 sudo ufw disable

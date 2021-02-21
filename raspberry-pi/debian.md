@@ -1,4 +1,4 @@
-# raspberry pi
+# raspberry pi OS primary
 
 ## security
 
