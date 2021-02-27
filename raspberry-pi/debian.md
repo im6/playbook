@@ -1,12 +1,32 @@
-# raspberry pi OS primary
+# Raspberry Pi OS primary
 
-## security
+## Basic
 
 ```sh
-passwd
 sudo shutdown -h now
 sudo reboot -h now
 ```
+
+## first to upgrade to latest
+
+[ref](https://www.raspberrypi.org/documentation/raspbian/updating.md)
+
+```sh
+sudo apt update
+sudo apt full-upgrade
+```
+
+## security
+
+### admin password
+
+```sh
+passwd
+```
+
+### ssh without text password
+
+[ref](https://www.raspberrypi.org/documentation/configuration/security.md)
 
 ## network
 
