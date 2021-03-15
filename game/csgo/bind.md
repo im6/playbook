@@ -9,24 +9,25 @@
 ## purchase shortcut
 
 ```sh
-// macbook arrow keys
+# macbook arrow keys
 bind "uparrow" "buy vesthelm;"
 bind "downarrow" "buy flashbang;"
 bind "leftarrow" "buy awp;"
 bind "rightarrow" "buy ak47; buy m4a1;"
 
-// weapon
+# weapon
 bind "kp_end" "buy p250;"
 bind "kp_downarrow" "buy fiveseven; buy tec9;"
 bind "kp_pgdn" "buy deagle;"
 bind "kp_leftarrow" "buy famas; buy galilar;"
-bind "kp_5" "buy mp9;"
+# bind "kp_5" "buy mp9;"
+bind "kp_5" "buy ump45;"
 bind "kp_rightarrow" "buy ssg08;"
 bind "kp_home" "buy ak47; buy m4a1;"
 bind "kp_uparrow" "buy aug; buy sg556;"
 bind "kp_pgup" "buy awp;"
 
-// equipment
+# equipment
 bind "alt" "buy hegrenade;" // optional
 bind "kp_ins" "buy hegrenade;"
 bind "kp_del" "buy flashbang;"

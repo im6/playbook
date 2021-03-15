@@ -34,3 +34,12 @@ passwd
 ifconfig wlan0 down
 ifconfig wlan0 up
 ```
+
+## device
+
+```sh
+lsblk # show devices
+sudo fdisk -l # show all the devices
+sudo fdisk /dev/sda* # show usb devices
+sudo mkfs.vfat -n 'USB2' -I /dev/sda # format USB drive
+```
