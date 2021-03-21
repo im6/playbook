@@ -11,6 +11,9 @@
   "editor.insertSpaces": true,
   "editor.detectIndentation": false,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[go]": {
+    "editor.defaultFormatter": "golang.go"
+  },
   "editor.formatOnSave": true,
   "editor.formatOnPaste": false,
 
