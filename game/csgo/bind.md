@@ -14,6 +14,7 @@ bind "uparrow" "buy vesthelm;"
 bind "downarrow" "buy flashbang;"
 bind "leftarrow" "buy awp;"
 bind "rightarrow" "buy ak47; buy m4a1;"
+bind "rightarrow" "buy taser 34;"
 
 # weapon
 bind "kp_end" "buy p250;"
@@ -28,7 +29,7 @@ bind "kp_uparrow" "buy aug; buy sg556;"
 bind "kp_pgup" "buy awp;"
 
 # equipment
-bind "alt" "buy hegrenade;" // optional
+bind "alt" "buy hegrenade;" # optional
 bind "kp_ins" "buy hegrenade;"
 bind "kp_del" "buy flashbang;"
 bind "kp_multiply" "buy smokegrenade;"
