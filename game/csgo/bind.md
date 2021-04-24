@@ -15,7 +15,7 @@ bind "downarrow" "buy flashbang;"
 bind "leftarrow" "buy awp;"
 bind "rightarrow" "buy ak47; buy m4a1;"
 
-# weapon
+# weapon in keyboard
 bind "kp_end" "buy p250;"
 bind "kp_downarrow" "buy fiveseven; buy tec9;"
 bind "kp_pgdn" "buy deagle;"
@@ -36,6 +36,9 @@ bind "kp_multiply" "buy smokegrenade;"
 bind "kp_slash" "buy incgrenade; buy molotov;"
 bind "kp_plus" "buy vesthelm;"
 bind "kp_minus" "buy defuser;"
+
+# mouse buy
+bind "mouse4" "buy ak47; buy m4a1; buy taser 34;"
 ```
 
 ## keyboard movement bind
