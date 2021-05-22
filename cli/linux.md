@@ -180,7 +180,7 @@ gzip -d file ## Decompress
 
 ### process operation:
 
-```
+```sh
 ps -ef | grep nohup
 ps aux | grep apt
 lsof -i:{port#}
