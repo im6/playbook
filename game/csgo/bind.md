@@ -38,7 +38,8 @@ bind "kp_plus" "buy vesthelm;"
 bind "kp_minus" "buy defuser;"
 
 # mouse buy
-bind "mouse4" "buy ak47; buy m4a1; buy taser 34;"
+bind "mouse4" "buy ak47; buy m4a1; buy taser 34; buy p250;"
+bind "mouse5" "buy awp; buy taser 34; buy deagle;"
 ```
 
 ## keyboard movement bind
