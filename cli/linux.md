@@ -1,12 +1,24 @@
 # Linux Ubuntu Primary CLI
 
+## directory
+
+```sh
+cd -
+cd ~
+```
+
+## cursor movement
+
+ctrl + A/E
+
 ## Execute flow
 
 分号可以让两个 command 连续运作，不考虑 command1 的输出状态； && 则前一个指令必需没有错误信息，亦即返回值需为 0 ，则 command2 才会被执行； || 则与 && 相反
 
-```
-command & means "run command in the background."
-command1 && command2 means "run command1 and if it completes successfully, run command2 afterwards."
+```sh
+command1; command2 # type all the command and let them run
+command & # means "run command in the background."
+command1 && command2 # "run command1 and if it completes successfully, run command2 afterwards."
 command1 | command2:  file.csv | python xxxx.py   pipeline stuff, for line in sys.stdin:
 ```
 
@@ -14,7 +26,7 @@ command1 | command2:  file.csv | python xxxx.py   pipeline stuff, for line in sy
 
 "\\" is used to continue typing in next line
 
-```
+```sh
 aws cloudformation create-stack \
     --stack-name lambda-file-processing \
 ```
@@ -23,7 +35,7 @@ aws cloudformation create-stack \
 
 ### apt-get command
 
-```
+```sh
 sudo apt-get upgrade: actually install all the update
 sudo apt-get update: update list of available pkgs
 sudo apt-get --purge remove node
@@ -200,7 +212,7 @@ sudo umount {mount_point}
 
 ### sequence operation:
 
-```
+```sh
 echo 123 > output.txt
 cat sth > python sth.py
 ```
