@@ -15,6 +15,10 @@ ssh-keygen
 ssh-copy-id <USERNAME>@<IP-ADDRESS>
 ```
 
+- mannual copy
+
+copy from `~/.ssh/id_rsa.pub` to `~/.ssh/authorized_keys`
+
 - disable password login
 
 ```sh
