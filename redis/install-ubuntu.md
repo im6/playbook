@@ -31,6 +31,8 @@ sudo apt install redis-server
 sudo vim /etc/redis/redis.conf
 ```
 
+make it listen to any ip address, and set connection password
+
 ```txt
 bind 0.0.0.0 ::1
 requirepass <you password>
