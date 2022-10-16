@@ -4,16 +4,13 @@
 
 ```json
 {
-  "editor.fontSize": 13,
   "editor.tabSize": 2,
+  "editor.fontSize": 13,
   "editor.minimap.enabled": false,
   "editor.wordWrap": "on",
   "editor.insertSpaces": true,
   "editor.detectIndentation": false,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "[go]": {
-    "editor.defaultFormatter": "golang.go"
-  },
   "editor.formatOnSave": true,
   "editor.formatOnPaste": false,
 
@@ -31,7 +28,21 @@
   "workbench.editor.limit.enabled": true,
   "workbench.editor.limit.value": 6,
   "workbench.colorTheme": "Default Light+",
-  "workbench.iconTheme": "vscode-icons"
+  "workbench.iconTheme": "vscode-icons",
+
+  
+  "[go]": {
+    "editor.tabSize": 8,
+    "editor.defaultFormatter": "golang.go"
+  },
+  "[python]": {
+    "editor.tabSize": 4,
+    "editor.detectIndentation": false
+  },
+  "[javascript]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
 }
 ```
 
