@@ -16,13 +16,11 @@ sudo apt install git
 
 ## qbitorrent
 
-[qbt](https://www.linuxbabe.com/ubuntu/install-qbittorrent-ubuntu-18-04-desktop-server)
+[qbt](https://pimylifeup.com/raspberry-pi-qbittorrent/)
 [service user](https://linuxhomeserver.com/applications/install-torrent-client/)
 
 ```sh
-sudo apt-get install software-properties-common # install add-apt-repository
-sudo add-apt-repository ppa:qbittorrent-team/qbittorrent-stable  # switch to seperate repo
-sudo apt install qbittorrent-nox # install it
+sudo apt install qbittorrent-nox
 
 qbittorrent-nox # run it
 ```
@@ -39,7 +37,7 @@ create `service` file in system
 
 ```sh
 cd /etc/systemd/system
-vim qbittorrent-nox.service
+sudo vim qbittorrent-nox.service
 ```
 
 ```vim
@@ -49,6 +47,7 @@ After=network.target
 
 [Service]
 User=qbittorrent-user
+UMask=002
 ExecStart=/usr/bin/qbittorrent-nox
 ExecStop=/usr/bin/killall -w qbittorrent-nox
 
