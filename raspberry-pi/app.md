@@ -55,7 +55,6 @@ After=network.target
 
 [Service]
 User=qbittorrent-user
-UMask=002
 ExecStart=/usr/bin/qbittorrent-nox
 ExecStop=/usr/bin/killall -w qbittorrent-nox
 
