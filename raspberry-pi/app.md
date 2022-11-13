@@ -1,5 +1,13 @@
 # app
 
+## youtube-dl
+
+[github](https://github.com/ytdl-org/youtube-dl)
+
+```sh
+sudo apt-get install ffmpeg
+```
+
 ## vim
 
 ```sh
