@@ -1,5 +1,11 @@
 # system init
 
+## find pi IP addr
+
+```sh
+ping raspberrypi
+```
+
 ## SSH
 
 - enable SSH
