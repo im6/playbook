@@ -2,7 +2,8 @@
 
 ## youtube-dl
 
-[github](https://github.com/ytdl-org/youtube-dl)
+[youtube-dl](https://github.com/ytdl-org/youtube-dl)
+[yt-dlp](https://github.com/yt-dlp/yt-dlp/wiki/Installation)
 
 ```sh
 sudo apt-get install ffmpeg
@@ -89,3 +90,27 @@ sudo systemctl enable qbittorrent-nox.service
 ## pihole
 
 [pihole](https://docs.pi-hole.net/core/pihole-command/)
+
+## GoLang
+
+```sh
+wget https://go.dev/dl/go1.20.4.linux-arm64.tar.gz
+sudo rm -rf /usr/local/go
+sudo tar -C /usr/local -xzf go1.20.4.linux-arm64.tar.gz
+```
+
+in `$HOME/.profile` file, add
+
+```sh
+export PATH=$PATH:/usr/local/go/bin
+```
+
+then
+
+```sh
+source $HOME/.profile
+```
+
+```sh
+go version
+```

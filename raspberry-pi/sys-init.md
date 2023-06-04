@@ -45,6 +45,4 @@ sudo apt -y dist-upgrade
 
 ## apps to start with
 
-```sh
-
-```
+[apps](./app.md)
