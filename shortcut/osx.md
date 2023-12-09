@@ -11,3 +11,4 @@
 - switch between virtual desktop: `cmd` + left/right
 - toggle showing hidden file: cmd + shft + .
 - delete current world: `ctrl` + delete
+- look up word: `ctrl` + `cmd` + `d`
