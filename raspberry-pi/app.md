@@ -7,6 +7,8 @@
 
 ```sh
 sudo apt-get install ffmpeg
+
+sudo ln -s /usr/local/bin/yt-dlp /usr/bin/yt-dlp # if bash not found
 ```
 
 ## vim

@@ -60,6 +60,13 @@ git reset --soft HEAD~1 # revert commit, but keep the unpushed changes in local
 git diff --name-only
 ```
 
+## Reset local and delete from origin (github)
+
+```sh
+git push -f origin HEAD^:master
+git reset --hard HEAD~1
+```
+
 ## tag
 
 tag should be push only after all the commits have been pushed to remote.
