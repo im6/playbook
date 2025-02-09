@@ -10,6 +10,7 @@ git config --global user.email
 
 git config --global core.eol lf # will be ignored if autocrlf is truthy
 git config --global core.autocrlf false # use Unix eof
+git config --global core.filemode false # mac os file mode ignore
 ```
 
 ## Init
