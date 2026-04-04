@@ -68,7 +68,21 @@ git push -f origin HEAD^:master
 git reset --hard HEAD~1
 ```
 
-## tag
+## reset and delete commit from main branch
+
+```sh
+git reset --hard HEAD~1
+git push origin main --force-with-lease # or --force
+```
+
+## tag delete
+
+```sh
+git tag -d v1.2
+git push origin -d v1.2
+```
+
+## tag add
 
 tag should be push only after all the commits have been pushed to remote.
 [ref](https://www.atlassian.com/git/tutorials/inspecting-a-repository/git-tag)
