@@ -11,6 +11,18 @@ git config --global user.email
 git config --global core.eol lf # will be ignored if autocrlf is truthy
 git config --global core.autocrlf false # use Unix eof
 git config --global core.filemode false # mac os file mode ignore
+
+
+# set up sock5
+git config --global http.proxy socks5h://127.0.0.1:1080
+git config --global https.proxy socks5h://127.0.0.1:1080
+
+# to test
+git ls-remote https://github.com/openai/codex.git
+
+# revert sock5h config
+git config --global --unset http.proxy
+git config --global --unset https.proxy
 ```
 
 ## Init
