@@ -55,6 +55,7 @@ To [restore apps after reboot](https://pm2.keymetrics.io/docs/usage/startup/):
 pm2 startup # Run the setup command it prints, if prompted
 pm2 save    # Save the current app list and environment; repeat after changes
 pm2 resurrect # Manually restore the last saved state
+pm2 reload ecosystem.config.js --only btc-recorder --update-env # when you update env in js file
 ```
 
 More commands: [PM2 quick start](https://pm2.keymetrics.io/docs/usage/quick-start/).
