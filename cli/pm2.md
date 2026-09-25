@@ -46,7 +46,8 @@ For networked Node.js apps in [cluster mode](https://pm2.keymetrics.io/docs/usag
 
 ```sh
 pm2 start app.js --name app -i max # Alternative start: one worker per available CPU
-PORT=3001 pm2 reload app --update-env
+PORT=3001 pm2 reload app --update-env # only update inline env, do not apply the ecosystem config update.
+pm2 reload ecosystem.config.js --only myApp --update-env # when you update env in js file
 ```
 
 To [restore apps after reboot](https://pm2.keymetrics.io/docs/usage/startup/):
@@ -55,7 +56,6 @@ To [restore apps after reboot](https://pm2.keymetrics.io/docs/usage/startup/):
 pm2 startup # Run the setup command it prints, if prompted
 pm2 save    # Save the current app list and environment; repeat after changes
 pm2 resurrect # Manually restore the last saved state
-pm2 reload ecosystem.config.js --only btc-recorder --update-env # when you update env in js file
 ```
 
 More commands: [PM2 quick start](https://pm2.keymetrics.io/docs/usage/quick-start/).
