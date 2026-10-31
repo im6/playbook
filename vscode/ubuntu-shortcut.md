@@ -35,3 +35,9 @@ ctrl + t ## search function in entire workspace.
 PgUp / PgDn ## scroll current file
 Ctrl + PgUp/PgDn ## scroll left/right tab
 ```
+
+## zen
+
+```sh
+ctrl + k, then z ## enter zen mode
+```
